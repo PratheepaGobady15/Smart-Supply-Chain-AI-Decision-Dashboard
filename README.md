@@ -2,7 +2,7 @@
 
 **Live Dashboard:** [Open Smart Supply Chain AI Decision Dashboard](https://pratheepagobady15.github.io/Smart-Supply-Chain-AI-Decision-Dashboard/)
 
-An Advanced Real-Data Supply Chain Decision Dashboard Built For Pratheepa Gobady.
+An Advanced Real-Data Supply Chain Decision Dashboard.
 It Uses The Public Olist Marketplace Dataset To Forecast Demand, Predict Late-Delivery Risk, Rank Inventory Exposure, And Simulate Operational Decisions.
 The Website Presents A Field-Specific AI Decision Experience, Not A Basic KPI Dashboard, With Model Evidence And Downloadable Analytics Outputs.
 
