@@ -1,0 +1,38 @@
+model,feature,importance
+Olist Demand Forecast,rolling_mean_28,0.3578206695531842
+Olist Demand Forecast,rolling_mean_7,0.2573858335769972
+Olist Demand Forecast,day_of_week,0.05994310834877018
+Olist Demand Forecast,avg_price,0.021561859744553935
+Olist Demand Forecast,lag_14,0.003394328307038933
+Olist Demand Forecast,lag_7,0.0032737491341985336
+Olist Demand Forecast,rolling_std_28,0.0027358641090448423
+Olist Demand Forecast,series_id_code,0.002703418240441587
+Olist Demand Forecast,freight_ratio_28,0.0023674365736126024
+Olist Demand Forecast,rolling_revenue_28,0.000464438153064813
+Olist Demand Forecast,day_of_year,0.00034293329558147495
+Olist Demand Forecast,month,0.0
+Olist Demand Forecast,is_weekend,0.0
+Olist Demand Forecast,series_age_days,0.0
+Olist Demand Forecast,category_code,0.0
+Olist Demand Forecast,rolling_freight_28,-0.0036127517276249854
+Olist Demand Forecast,lag_28,-0.006938546188034689
+Olist Demand Forecast,state_id_code,-0.014916237813619023
+Olist Late Delivery Risk,promised_lead_days,0.28959601483735975
+Olist Late Delivery Risk,customer_state_code,0.009453098816091058
+Olist Late Delivery Risk,seller_state_code,0.006075233022636535
+Olist Late Delivery Risk,purchase_month,0.005503999202876956
+Olist Late Delivery Risk,item_count,0.002999968296239904
+Olist Late Delivery Risk,purchase_day_of_week,0.0027545472250152616
+Olist Late Delivery Risk,total_price,0.002634242778336423
+Olist Late Delivery Risk,product_weight_g,0.0023118268612371353
+Olist Late Delivery Risk,freight_ratio,0.002298239535494684
+Olist Late Delivery Risk,purchase_hour,0.0017516327436434276
+Olist Late Delivery Risk,approval_lag_hours,2.8306928634425077e-07
+Olist Late Delivery Risk,price_log,0.0
+Olist Late Delivery Risk,is_weekend_purchase,0.0
+Olist Late Delivery Risk,is_cross_state,-0.0003326064114059779
+Olist Late Delivery Risk,freight_log,-0.0003872387836625357
+Olist Late Delivery Risk,avg_item_price,-0.0007747606366113787
+Olist Late Delivery Risk,product_category_name_english_code,-0.000925636566210993
+Olist Late Delivery Risk,volume_cm3,-0.0009505466634056233
+Olist Late Delivery Risk,total_freight,-0.00916861418335635

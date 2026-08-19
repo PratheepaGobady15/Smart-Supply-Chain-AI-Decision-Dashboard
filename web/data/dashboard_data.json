@@ -1,0 +1,2686 @@
+{
+  "generatedAt": "2026-08-19T05:17:11+00:00",
+  "generatedFor": "Pratheepa Gobady",
+  "title": "Smart Supply Chain AI Decision Dashboard",
+  "kpis": {
+    "project_owner": "Pratheepa Gobady",
+    "data_sources": "Brazilian E-Commerce Public Dataset By Olist (CC BY-NC-SA 4.0; Non-Commercial Educational Use)",
+    "demand_series_modeled": 72,
+    "forecast_units_28d": 6511.49,
+    "forecast_revenue_28d": 583167.13,
+    "high_inventory_exposure_lanes": 11,
+    "delivery_orders_scored": 96470,
+    "high_delivery_risk_orders": 93,
+    "avg_late_delivery_probability": 0.0816,
+    "scenario_count": 6,
+    "demand_model_mae": 1.733,
+    "demand_model_mape": 0.7416,
+    "delivery_model_roc_auc": 0.7337,
+    "delivery_model_average_precision": 0.1268
+  },
+  "actionQueue": [
+    {
+      "lane": "Scenario",
+      "title": "Combined Disruption / auto / SP",
+      "score": 100.0,
+      "risk_level": "High",
+      "impact": 14170.32,
+      "action": "Escalate Combined Disruption: Protect Service Levels And Review Allocation."
+    },
+    {
+      "lane": "Scenario",
+      "title": "Combined Disruption / perfumery / SP",
+      "score": 100.0,
+      "risk_level": "High",
+      "impact": 11943.17,
+      "action": "Escalate Combined Disruption: Protect Service Levels And Review Allocation."
+    },
+    {
+      "lane": "Scenario",
+      "title": "Combined Disruption / health_beauty / RJ",
+      "score": 100.0,
+      "risk_level": "High",
+      "impact": 10566.75,
+      "action": "Escalate Combined Disruption: Protect Service Levels And Review Allocation."
+    },
+    {
+      "lane": "Scenario",
+      "title": "Delivery Slowdown +10% / auto / SP",
+      "score": 100.0,
+      "risk_level": "High",
+      "impact": 10268.35,
+      "action": "Escalate Delivery Slowdown +10%: Protect Service Levels And Review Allocation."
+    },
+    {
+      "lane": "Scenario",
+      "title": "Combined Disruption / cool_stuff / SP",
+      "score": 100.0,
+      "risk_level": "High",
+      "impact": 10257.61,
+      "action": "Escalate Combined Disruption: Protect Service Levels And Review Allocation."
+    },
+    {
+      "lane": "Scenario",
+      "title": "Combined Disruption / toys / SP",
+      "score": 100.0,
+      "risk_level": "High",
+      "impact": 9665.47,
+      "action": "Escalate Combined Disruption: Protect Service Levels And Review Allocation."
+    },
+    {
+      "lane": "Demand Forecast",
+      "title": "perfumery / SP",
+      "score": 100.0,
+      "risk_level": "High",
+      "impact": 7867.7,
+      "action": "Prioritize Demand Review And Reserve Capacity For This Category-State Lane."
+    },
+    {
+      "lane": "Scenario",
+      "title": "Delivery Slowdown +10% / health_beauty / RJ",
+      "score": 100.0,
+      "risk_level": "High",
+      "impact": 7657.07,
+      "action": "Escalate Delivery Slowdown +10%: Protect Service Levels And Review Allocation."
+    },
+    {
+      "lane": "Scenario",
+      "title": "Delivery Slowdown +10% / toys / SP",
+      "score": 100.0,
+      "risk_level": "High",
+      "impact": 7003.96,
+      "action": "Escalate Delivery Slowdown +10%: Protect Service Levels And Review Allocation."
+    },
+    {
+      "lane": "Demand Forecast",
+      "title": "health_beauty / RJ",
+      "score": 100.0,
+      "risk_level": "High",
+      "impact": 6960.97,
+      "action": "Prioritize Demand Review And Reserve Capacity For This Category-State Lane."
+    },
+    {
+      "lane": "Demand Forecast",
+      "title": "cool_stuff / SP",
+      "score": 100.0,
+      "risk_level": "High",
+      "impact": 6757.32,
+      "action": "Prioritize Demand Review And Reserve Capacity For This Category-State Lane."
+    },
+    {
+      "lane": "Scenario",
+      "title": "Combined Disruption / food / SP",
+      "score": 100.0,
+      "risk_level": "High",
+      "impact": 5723.5,
+      "action": "Escalate Combined Disruption: Protect Service Levels And Review Allocation."
+    },
+    {
+      "lane": "Scenario",
+      "title": "Delivery Slowdown +10% / food / SP",
+      "score": 100.0,
+      "risk_level": "High",
+      "impact": 4147.46,
+      "action": "Escalate Delivery Slowdown +10%: Protect Service Levels And Review Allocation."
+    },
+    {
+      "lane": "Demand Forecast",
+      "title": "food / SP",
+      "score": 99.8,
+      "risk_level": "High",
+      "impact": 3770.42,
+      "action": "Prioritize Demand Review And Reserve Capacity For This Category-State Lane."
+    },
+    {
+      "lane": "Demand Forecast",
+      "title": "toys / SP",
+      "score": 98.9,
+      "risk_level": "High",
+      "impact": 6367.24,
+      "action": "Prioritize Demand Review And Reserve Capacity For This Category-State Lane."
+    },
+    {
+      "lane": "Demand Forecast",
+      "title": "auto / SP",
+      "score": 90.0,
+      "risk_level": "High",
+      "impact": 9334.86,
+      "action": "Prioritize Demand Review And Reserve Capacity For This Category-State Lane."
+    },
+    {
+      "lane": "Delivery Risk",
+      "title": "SP To MA",
+      "score": 82.9,
+      "risk_level": "High",
+      "impact": 226.97,
+      "action": "Review Seller/Region Promise Window And Freight Exposure."
+    },
+    {
+      "lane": "Delivery Risk",
+      "title": "SP To RJ",
+      "score": 81.6,
+      "risk_level": "High",
+      "impact": 249.0,
+      "action": "Review Seller/Region Promise Window And Freight Exposure."
+    },
+    {
+      "lane": "Demand Forecast",
+      "title": "bed_bath_table / MG",
+      "score": 80.6,
+      "risk_level": "High",
+      "impact": 3283.51,
+      "action": "Prioritize Demand Review And Reserve Capacity For This Category-State Lane."
+    },
+    {
+      "lane": "Delivery Risk",
+      "title": "SP To SE",
+      "score": 80.6,
+      "risk_level": "High",
+      "impact": 391.87,
+      "action": "Review Seller/Region Promise Window And Freight Exposure."
+    },
+    {
+      "lane": "Demand Forecast",
+      "title": "computers_accessories / SP",
+      "score": 80.1,
+      "risk_level": "High",
+      "impact": 7505.46,
+      "action": "Prioritize Demand Review And Reserve Capacity For This Category-State Lane."
+    },
+    {
+      "lane": "Delivery Risk",
+      "title": "SP To AL",
+      "score": 79.8,
+      "risk_level": "High",
+      "impact": 89.0,
+      "action": "Review Seller/Region Promise Window And Freight Exposure."
+    },
+    {
+      "lane": "Demand Forecast",
+      "title": "pet_shop / SP",
+      "score": 78.9,
+      "risk_level": "High",
+      "impact": 4879.75,
+      "action": "Prioritize Demand Review And Reserve Capacity For This Category-State Lane."
+    },
+    {
+      "lane": "Delivery Risk",
+      "title": "SP To MA",
+      "score": 78.8,
+      "risk_level": "High",
+      "impact": 57.8,
+      "action": "Review Seller/Region Promise Window And Freight Exposure."
+    },
+    {
+      "lane": "Delivery Risk",
+      "title": "SP To RJ",
+      "score": 78.3,
+      "risk_level": "High",
+      "impact": 119.9,
+      "action": "Review Seller/Region Promise Window And Freight Exposure."
+    },
+    {
+      "lane": "Delivery Risk",
+      "title": "SP To MA",
+      "score": 78.1,
+      "risk_level": "High",
+      "impact": 86.9,
+      "action": "Review Seller/Region Promise Window And Freight Exposure."
+    },
+    {
+      "lane": "Delivery Risk",
+      "title": "MA To PE",
+      "score": 77.9,
+      "risk_level": "High",
+      "impact": 110.99,
+      "action": "Review Seller/Region Promise Window And Freight Exposure."
+    },
+    {
+      "lane": "Delivery Risk",
+      "title": "SP To MA",
+      "score": 77.6,
+      "risk_level": "High",
+      "impact": 325.0,
+      "action": "Review Seller/Region Promise Window And Freight Exposure."
+    },
+    {
+      "lane": "Delivery Risk",
+      "title": "SP To AL",
+      "score": 77.2,
+      "risk_level": "High",
+      "impact": 12.99,
+      "action": "Review Seller/Region Promise Window And Freight Exposure."
+    },
+    {
+      "lane": "Delivery Risk",
+      "title": "SP To RJ",
+      "score": 76.4,
+      "risk_level": "High",
+      "impact": 599.0,
+      "action": "Review Seller/Region Promise Window And Freight Exposure."
+    },
+    {
+      "lane": "Delivery Risk",
+      "title": "SP To RJ",
+      "score": 76.2,
+      "risk_level": "High",
+      "impact": 99.99,
+      "action": "Review Seller/Region Promise Window And Freight Exposure."
+    },
+    {
+      "lane": "Delivery Risk",
+      "title": "SP To MA",
+      "score": 75.7,
+      "risk_level": "High",
+      "impact": 84.9,
+      "action": "Review Seller/Region Promise Window And Freight Exposure."
+    },
+    {
+      "lane": "Delivery Risk",
+      "title": "SP To CE",
+      "score": 75.5,
+      "risk_level": "High",
+      "impact": 18.98,
+      "action": "Review Seller/Region Promise Window And Freight Exposure."
+    },
+    {
+      "lane": "Demand Forecast",
+      "title": "auto / RJ",
+      "score": 74.6,
+      "risk_level": "High",
+      "impact": 1178.49,
+      "action": "Prioritize Demand Review And Reserve Capacity For This Category-State Lane."
+    },
+    {
+      "lane": "Demand Forecast",
+      "title": "auto / MG",
+      "score": 70.4,
+      "risk_level": "High",
+      "impact": 2224.82,
+      "action": "Prioritize Demand Review And Reserve Capacity For This Category-State Lane."
+    },
+    {
+      "lane": "Demand Forecast",
+      "title": "housewares / RJ",
+      "score": 69.8,
+      "risk_level": "Medium",
+      "impact": 1891.25,
+      "action": "Watch For Demand Acceleration And Validate Replenishment Coverage."
+    },
+    {
+      "lane": "Demand Forecast",
+      "title": "furniture_decor / SP",
+      "score": 69.7,
+      "risk_level": "Medium",
+      "impact": 5881.56,
+      "action": "Watch For Demand Acceleration And Validate Replenishment Coverage."
+    },
+    {
+      "lane": "Demand Forecast",
+      "title": "health_beauty / MG",
+      "score": 68.5,
+      "risk_level": "Medium",
+      "impact": 3390.59,
+      "action": "Watch For Demand Acceleration And Validate Replenishment Coverage."
+    }
+  ],
+  "demandByCategory": [
+    {
+      "date": "2018-08-30",
+      "category": "bed_bath_table",
+      "forecast_units": 19.56
+    },
+    {
+      "date": "2018-08-30",
+      "category": "computers_accessories",
+      "forecast_units": 15.42
+    },
+    {
+      "date": "2018-08-30",
+      "category": "furniture_decor",
+      "forecast_units": 13.67
+    },
+    {
+      "date": "2018-08-30",
+      "category": "health_beauty",
+      "forecast_units": 24.78
+    },
+    {
+      "date": "2018-08-30",
+      "category": "housewares",
+      "forecast_units": 19.01
+    },
+    {
+      "date": "2018-08-30",
+      "category": "sports_leisure",
+      "forecast_units": 14.89
+    },
+    {
+      "date": "2018-08-31",
+      "category": "bed_bath_table",
+      "forecast_units": 18.98
+    },
+    {
+      "date": "2018-08-31",
+      "category": "computers_accessories",
+      "forecast_units": 13.63
+    },
+    {
+      "date": "2018-08-31",
+      "category": "furniture_decor",
+      "forecast_units": 13.4
+    },
+    {
+      "date": "2018-08-31",
+      "category": "health_beauty",
+      "forecast_units": 19.99
+    },
+    {
+      "date": "2018-08-31",
+      "category": "housewares",
+      "forecast_units": 17.26
+    },
+    {
+      "date": "2018-08-31",
+      "category": "sports_leisure",
+      "forecast_units": 14.24
+    },
+    {
+      "date": "2018-09-01",
+      "category": "bed_bath_table",
+      "forecast_units": 17.18
+    },
+    {
+      "date": "2018-09-01",
+      "category": "computers_accessories",
+      "forecast_units": 11.27
+    },
+    {
+      "date": "2018-09-01",
+      "category": "furniture_decor",
+      "forecast_units": 10.49
+    },
+    {
+      "date": "2018-09-01",
+      "category": "health_beauty",
+      "forecast_units": 18.03
+    },
+    {
+      "date": "2018-09-01",
+      "category": "housewares",
+      "forecast_units": 15.0
+    },
+    {
+      "date": "2018-09-01",
+      "category": "sports_leisure",
+      "forecast_units": 11.03
+    },
+    {
+      "date": "2018-09-02",
+      "category": "bed_bath_table",
+      "forecast_units": 16.62
+    },
+    {
+      "date": "2018-09-02",
+      "category": "computers_accessories",
+      "forecast_units": 12.35
+    },
+    {
+      "date": "2018-09-02",
+      "category": "furniture_decor",
+      "forecast_units": 11.75
+    },
+    {
+      "date": "2018-09-02",
+      "category": "health_beauty",
+      "forecast_units": 18.31
+    },
+    {
+      "date": "2018-09-02",
+      "category": "housewares",
+      "forecast_units": 17.05
+    },
+    {
+      "date": "2018-09-02",
+      "category": "sports_leisure",
+      "forecast_units": 12.03
+    },
+    {
+      "date": "2018-09-03",
+      "category": "bed_bath_table",
+      "forecast_units": 23.27
+    },
+    {
+      "date": "2018-09-03",
+      "category": "computers_accessories",
+      "forecast_units": 16.36
+    },
+    {
+      "date": "2018-09-03",
+      "category": "furniture_decor",
+      "forecast_units": 16.57
+    },
+    {
+      "date": "2018-09-03",
+      "category": "health_beauty",
+      "forecast_units": 28.94
+    },
+    {
+      "date": "2018-09-03",
+      "category": "housewares",
+      "forecast_units": 23.8
+    },
+    {
+      "date": "2018-09-03",
+      "category": "sports_leisure",
+      "forecast_units": 16.46
+    },
+    {
+      "date": "2018-09-04",
+      "category": "bed_bath_table",
+      "forecast_units": 26.86
+    },
+    {
+      "date": "2018-09-04",
+      "category": "computers_accessories",
+      "forecast_units": 17.14
+    },
+    {
+      "date": "2018-09-04",
+      "category": "furniture_decor",
+      "forecast_units": 17.99
+    },
+    {
+      "date": "2018-09-04",
+      "category": "health_beauty",
+      "forecast_units": 31.22
+    },
+    {
+      "date": "2018-09-04",
+      "category": "housewares",
+      "forecast_units": 25.77
+    },
+    {
+      "date": "2018-09-04",
+      "category": "sports_leisure",
+      "forecast_units": 16.46
+    },
+    {
+      "date": "2018-09-05",
+      "category": "bed_bath_table",
+      "forecast_units": 26.18
+    },
+    {
+      "date": "2018-09-05",
+      "category": "computers_accessories",
+      "forecast_units": 17.01
+    },
+    {
+      "date": "2018-09-05",
+      "category": "furniture_decor",
+      "forecast_units": 17.22
+    },
+    {
+      "date": "2018-09-05",
+      "category": "health_beauty",
+      "forecast_units": 30.11
+    },
+    {
+      "date": "2018-09-05",
+      "category": "housewares",
+      "forecast_units": 25.18
+    },
+    {
+      "date": "2018-09-05",
+      "category": "sports_leisure",
+      "forecast_units": 16.11
+    },
+    {
+      "date": "2018-09-06",
+      "category": "bed_bath_table",
+      "forecast_units": 25.58
+    },
+    {
+      "date": "2018-09-06",
+      "category": "computers_accessories",
+      "forecast_units": 20.44
+    },
+    {
+      "date": "2018-09-06",
+      "category": "furniture_decor",
+      "forecast_units": 17.45
+    },
+    {
+      "date": "2018-09-06",
+      "category": "health_beauty",
+      "forecast_units": 33.41
+    },
+    {
+      "date": "2018-09-06",
+      "category": "housewares",
+      "forecast_units": 23.87
+    },
+    {
+      "date": "2018-09-06",
+      "category": "sports_leisure",
+      "forecast_units": 19.65
+    },
+    {
+      "date": "2018-09-07",
+      "category": "bed_bath_table",
+      "forecast_units": 20.08
+    },
+    {
+      "date": "2018-09-07",
+      "category": "computers_accessories",
+      "forecast_units": 17.26
+    },
+    {
+      "date": "2018-09-07",
+      "category": "furniture_decor",
+      "forecast_units": 15.51
+    },
+    {
+      "date": "2018-09-07",
+      "category": "health_beauty",
+      "forecast_units": 23.79
+    },
+    {
+      "date": "2018-09-07",
+      "category": "housewares",
+      "forecast_units": 21.21
+    },
+    {
+      "date": "2018-09-07",
+      "category": "sports_leisure",
+      "forecast_units": 16.61
+    },
+    {
+      "date": "2018-09-08",
+      "category": "bed_bath_table",
+      "forecast_units": 17.34
+    },
+    {
+      "date": "2018-09-08",
+      "category": "computers_accessories",
+      "forecast_units": 12.65
+    },
+    {
+      "date": "2018-09-08",
+      "category": "furniture_decor",
+      "forecast_units": 12.12
+    },
+    {
+      "date": "2018-09-08",
+      "category": "health_beauty",
+      "forecast_units": 20.14
+    },
+    {
+      "date": "2018-09-08",
+      "category": "housewares",
+      "forecast_units": 16.17
+    },
+    {
+      "date": "2018-09-08",
+      "category": "sports_leisure",
+      "forecast_units": 11.53
+    },
+    {
+      "date": "2018-09-09",
+      "category": "bed_bath_table",
+      "forecast_units": 18.39
+    },
+    {
+      "date": "2018-09-09",
+      "category": "computers_accessories",
+      "forecast_units": 13.13
+    },
+    {
+      "date": "2018-09-09",
+      "category": "furniture_decor",
+      "forecast_units": 12.56
+    },
+    {
+      "date": "2018-09-09",
+      "category": "health_beauty",
+      "forecast_units": 21.19
+    },
+    {
+      "date": "2018-09-09",
+      "category": "housewares",
+      "forecast_units": 17.55
+    },
+    {
+      "date": "2018-09-09",
+      "category": "sports_leisure",
+      "forecast_units": 12.19
+    },
+    {
+      "date": "2018-09-10",
+      "category": "bed_bath_table",
+      "forecast_units": 28.4
+    },
+    {
+      "date": "2018-09-10",
+      "category": "computers_accessories",
+      "forecast_units": 20.89
+    },
+    {
+      "date": "2018-09-10",
+      "category": "furniture_decor",
+      "forecast_units": 20.09
+    },
+    {
+      "date": "2018-09-10",
+      "category": "health_beauty",
+      "forecast_units": 34.47
+    },
+    {
+      "date": "2018-09-10",
+      "category": "housewares",
+      "forecast_units": 29.98
+    },
+    {
+      "date": "2018-09-10",
+      "category": "sports_leisure",
+      "forecast_units": 22.53
+    },
+    {
+      "date": "2018-09-11",
+      "category": "bed_bath_table",
+      "forecast_units": 28.48
+    },
+    {
+      "date": "2018-09-11",
+      "category": "computers_accessories",
+      "forecast_units": 20.8
+    },
+    {
+      "date": "2018-09-11",
+      "category": "furniture_decor",
+      "forecast_units": 20.65
+    },
+    {
+      "date": "2018-09-11",
+      "category": "health_beauty",
+      "forecast_units": 34.13
+    },
+    {
+      "date": "2018-09-11",
+      "category": "housewares",
+      "forecast_units": 27.9
+    },
+    {
+      "date": "2018-09-11",
+      "category": "sports_leisure",
+      "forecast_units": 22.0
+    },
+    {
+      "date": "2018-09-12",
+      "category": "bed_bath_table",
+      "forecast_units": 28.17
+    },
+    {
+      "date": "2018-09-12",
+      "category": "computers_accessories",
+      "forecast_units": 20.43
+    },
+    {
+      "date": "2018-09-12",
+      "category": "furniture_decor",
+      "forecast_units": 20.06
+    },
+    {
+      "date": "2018-09-12",
+      "category": "health_beauty",
+      "forecast_units": 34.09
+    },
+    {
+      "date": "2018-09-12",
+      "category": "housewares",
+      "forecast_units": 25.96
+    },
+    {
+      "date": "2018-09-12",
+      "category": "sports_leisure",
+      "forecast_units": 20.7
+    },
+    {
+      "date": "2018-09-13",
+      "category": "bed_bath_table",
+      "forecast_units": 27.68
+    },
+    {
+      "date": "2018-09-13",
+      "category": "computers_accessories",
+      "forecast_units": 22.02
+    },
+    {
+      "date": "2018-09-13",
+      "category": "furniture_decor",
+      "forecast_units": 21.63
+    },
+    {
+      "date": "2018-09-13",
+      "category": "health_beauty",
+      "forecast_units": 31.99
+    },
+    {
+      "date": "2018-09-13",
+      "category": "housewares",
+      "forecast_units": 27.65
+    },
+    {
+      "date": "2018-09-13",
+      "category": "sports_leisure",
+      "forecast_units": 20.37
+    },
+    {
+      "date": "2018-09-14",
+      "category": "bed_bath_table",
+      "forecast_units": 22.82
+    },
+    {
+      "date": "2018-09-14",
+      "category": "computers_accessories",
+      "forecast_units": 19.63
+    },
+    {
+      "date": "2018-09-14",
+      "category": "furniture_decor",
+      "forecast_units": 18.12
+    },
+    {
+      "date": "2018-09-14",
+      "category": "health_beauty",
+      "forecast_units": 26.61
+    },
+    {
+      "date": "2018-09-14",
+      "category": "housewares",
+      "forecast_units": 22.1
+    },
+    {
+      "date": "2018-09-14",
+      "category": "sports_leisure",
+      "forecast_units": 17.42
+    },
+    {
+      "date": "2018-09-15",
+      "category": "bed_bath_table",
+      "forecast_units": 18.87
+    },
+    {
+      "date": "2018-09-15",
+      "category": "computers_accessories",
+      "forecast_units": 13.3
+    },
+    {
+      "date": "2018-09-15",
+      "category": "furniture_decor",
+      "forecast_units": 13.42
+    },
+    {
+      "date": "2018-09-15",
+      "category": "health_beauty",
+      "forecast_units": 23.13
+    },
+    {
+      "date": "2018-09-15",
+      "category": "housewares",
+      "forecast_units": 16.56
+    },
+    {
+      "date": "2018-09-15",
+      "category": "sports_leisure",
+      "forecast_units": 12.98
+    },
+    {
+      "date": "2018-09-16",
+      "category": "bed_bath_table",
+      "forecast_units": 20.39
+    },
+    {
+      "date": "2018-09-16",
+      "category": "computers_accessories",
+      "forecast_units": 13.14
+    },
+    {
+      "date": "2018-09-16",
+      "category": "furniture_decor",
+      "forecast_units": 14.45
+    },
+    {
+      "date": "2018-09-16",
+      "category": "health_beauty",
+      "forecast_units": 24.86
+    },
+    {
+      "date": "2018-09-16",
+      "category": "housewares",
+      "forecast_units": 19.07
+    },
+    {
+      "date": "2018-09-16",
+      "category": "sports_leisure",
+      "forecast_units": 12.98
+    },
+    {
+      "date": "2018-09-17",
+      "category": "bed_bath_table",
+      "forecast_units": 30.31
+    },
+    {
+      "date": "2018-09-17",
+      "category": "computers_accessories",
+      "forecast_units": 21.06
+    },
+    {
+      "date": "2018-09-17",
+      "category": "furniture_decor",
+      "forecast_units": 22.77
+    },
+    {
+      "date": "2018-09-17",
+      "category": "health_beauty",
+      "forecast_units": 35.85
+    },
+    {
+      "date": "2018-09-17",
+      "category": "housewares",
+      "forecast_units": 28.3
+    },
+    {
+      "date": "2018-09-17",
+      "category": "sports_leisure",
+      "forecast_units": 20.94
+    },
+    {
+      "date": "2018-09-18",
+      "category": "bed_bath_table",
+      "forecast_units": 29.89
+    },
+    {
+      "date": "2018-09-18",
+      "category": "computers_accessories",
+      "forecast_units": 20.99
+    },
+    {
+      "date": "2018-09-18",
+      "category": "furniture_decor",
+      "forecast_units": 22.1
+    },
+    {
+      "date": "2018-09-18",
+      "category": "health_beauty",
+      "forecast_units": 35.78
+    },
+    {
+      "date": "2018-09-18",
+      "category": "housewares",
+      "forecast_units": 28.52
+    },
+    {
+      "date": "2018-09-18",
+      "category": "sports_leisure",
+      "forecast_units": 23.01
+    },
+    {
+      "date": "2018-09-19",
+      "category": "bed_bath_table",
+      "forecast_units": 29.41
+    },
+    {
+      "date": "2018-09-19",
+      "category": "computers_accessories",
+      "forecast_units": 20.46
+    },
+    {
+      "date": "2018-09-19",
+      "category": "furniture_decor",
+      "forecast_units": 21.77
+    },
+    {
+      "date": "2018-09-19",
+      "category": "health_beauty",
+      "forecast_units": 34.8
+    },
+    {
+      "date": "2018-09-19",
+      "category": "housewares",
+      "forecast_units": 27.48
+    },
+    {
+      "date": "2018-09-19",
+      "category": "sports_leisure",
+      "forecast_units": 20.38
+    },
+    {
+      "date": "2018-09-20",
+      "category": "bed_bath_table",
+      "forecast_units": 28.14
+    },
+    {
+      "date": "2018-09-20",
+      "category": "computers_accessories",
+      "forecast_units": 19.99
+    },
+    {
+      "date": "2018-09-20",
+      "category": "furniture_decor",
+      "forecast_units": 21.58
+    },
+    {
+      "date": "2018-09-20",
+      "category": "health_beauty",
+      "forecast_units": 36.62
+    },
+    {
+      "date": "2018-09-20",
+      "category": "housewares",
+      "forecast_units": 27.14
+    },
+    {
+      "date": "2018-09-20",
+      "category": "sports_leisure",
+      "forecast_units": 20.3
+    },
+    {
+      "date": "2018-09-21",
+      "category": "bed_bath_table",
+      "forecast_units": 23.76
+    },
+    {
+      "date": "2018-09-21",
+      "category": "computers_accessories",
+      "forecast_units": 18.22
+    },
+    {
+      "date": "2018-09-21",
+      "category": "furniture_decor",
+      "forecast_units": 17.94
+    },
+    {
+      "date": "2018-09-21",
+      "category": "health_beauty",
+      "forecast_units": 29.62
+    },
+    {
+      "date": "2018-09-21",
+      "category": "housewares",
+      "forecast_units": 23.47
+    },
+    {
+      "date": "2018-09-21",
+      "category": "sports_leisure",
+      "forecast_units": 17.73
+    },
+    {
+      "date": "2018-09-22",
+      "category": "bed_bath_table",
+      "forecast_units": 21.05
+    },
+    {
+      "date": "2018-09-22",
+      "category": "computers_accessories",
+      "forecast_units": 14.14
+    },
+    {
+      "date": "2018-09-22",
+      "category": "furniture_decor",
+      "forecast_units": 13.23
+    },
+    {
+      "date": "2018-09-22",
+      "category": "health_beauty",
+      "forecast_units": 25.9
+    },
+    {
+      "date": "2018-09-22",
+      "category": "housewares",
+      "forecast_units": 16.46
+    },
+    {
+      "date": "2018-09-22",
+      "category": "sports_leisure",
+      "forecast_units": 12.92
+    },
+    {
+      "date": "2018-09-23",
+      "category": "bed_bath_table",
+      "forecast_units": 22.14
+    },
+    {
+      "date": "2018-09-23",
+      "category": "computers_accessories",
+      "forecast_units": 15.14
+    },
+    {
+      "date": "2018-09-23",
+      "category": "furniture_decor",
+      "forecast_units": 15.6
+    },
+    {
+      "date": "2018-09-23",
+      "category": "health_beauty",
+      "forecast_units": 27.4
+    },
+    {
+      "date": "2018-09-23",
+      "category": "housewares",
+      "forecast_units": 19.17
+    },
+    {
+      "date": "2018-09-23",
+      "category": "sports_leisure",
+      "forecast_units": 13.87
+    },
+    {
+      "date": "2018-09-24",
+      "category": "bed_bath_table",
+      "forecast_units": 32.15
+    },
+    {
+      "date": "2018-09-24",
+      "category": "computers_accessories",
+      "forecast_units": 22.99
+    },
+    {
+      "date": "2018-09-24",
+      "category": "furniture_decor",
+      "forecast_units": 23.94
+    },
+    {
+      "date": "2018-09-24",
+      "category": "health_beauty",
+      "forecast_units": 40.51
+    },
+    {
+      "date": "2018-09-24",
+      "category": "housewares",
+      "forecast_units": 29.55
+    },
+    {
+      "date": "2018-09-24",
+      "category": "sports_leisure",
+      "forecast_units": 21.93
+    },
+    {
+      "date": "2018-09-25",
+      "category": "bed_bath_table",
+      "forecast_units": 32.84
+    },
+    {
+      "date": "2018-09-25",
+      "category": "computers_accessories",
+      "forecast_units": 25.24
+    },
+    {
+      "date": "2018-09-25",
+      "category": "furniture_decor",
+      "forecast_units": 24.66
+    },
+    {
+      "date": "2018-09-25",
+      "category": "health_beauty",
+      "forecast_units": 40.9
+    },
+    {
+      "date": "2018-09-25",
+      "category": "housewares",
+      "forecast_units": 29.41
+    },
+    {
+      "date": "2018-09-25",
+      "category": "sports_leisure",
+      "forecast_units": 21.32
+    },
+    {
+      "date": "2018-09-26",
+      "category": "bed_bath_table",
+      "forecast_units": 32.35
+    },
+    {
+      "date": "2018-09-26",
+      "category": "computers_accessories",
+      "forecast_units": 24.78
+    },
+    {
+      "date": "2018-09-26",
+      "category": "furniture_decor",
+      "forecast_units": 24.37
+    },
+    {
+      "date": "2018-09-26",
+      "category": "health_beauty",
+      "forecast_units": 40.58
+    },
+    {
+      "date": "2018-09-26",
+      "category": "housewares",
+      "forecast_units": 29.01
+    },
+    {
+      "date": "2018-09-26",
+      "category": "sports_leisure",
+      "forecast_units": 22.06
+    }
+  ],
+  "demandRisk": [
+    {
+      "series_id": "perfumery::SP",
+      "category": "perfumery",
+      "store_id": "SP",
+      "state_id": "SP",
+      "forecast_units_28d": 243.71,
+      "forecast_revenue_28d": 21326.4,
+      "forecast_freight_28d": 2545.65,
+      "avg_recent_units": 3.4107142857142856,
+      "demand_volatility": 2.81409947303855,
+      "avg_price": 107.03685766828733,
+      "recent_revenue_56d": 18846.98,
+      "customer_state": "SP",
+      "avg_delivery_risk_score": 5.38,
+      "late_delivery_rate": 0.0589,
+      "demand_change_pct": 1.5519371727748692,
+      "volatility_index": 0.8250762852887895,
+      "revenue_at_risk": 7867.7,
+      "inventory_exposure_score": 100.0,
+      "risk_level": "High",
+      "recommended_action": "Prioritize Demand Review And Reserve Capacity For This Category-State Lane."
+    },
+    {
+      "series_id": "cool_stuff::SP",
+      "category": "cool_stuff",
+      "store_id": "SP",
+      "state_id": "SP",
+      "forecast_units_28d": 129.76,
+      "forecast_revenue_28d": 18520.5,
+      "forecast_freight_28d": 2052.58,
+      "avg_recent_units": 1.8392857142857142,
+      "demand_volatility": 1.4241652829804388,
+      "avg_price": 173.54196094009652,
+      "recent_revenue_56d": 16055.190000000002,
+      "customer_state": "SP",
+      "avg_delivery_risk_score": 5.38,
+      "late_delivery_rate": 0.0589,
+      "demand_change_pct": 1.519611650485437,
+      "volatility_index": 0.7743034548243163,
+      "revenue_at_risk": 6757.32,
+      "inventory_exposure_score": 100.0,
+      "risk_level": "High",
+      "recommended_action": "Prioritize Demand Review And Reserve Capacity For This Category-State Lane."
+    },
+    {
+      "series_id": "health_beauty::RJ",
+      "category": "health_beauty",
+      "store_id": "RJ",
+      "state_id": "RJ",
+      "forecast_units_28d": 163.72,
+      "forecast_revenue_28d": 17998.85,
+      "forecast_freight_28d": 2916.67,
+      "avg_recent_units": 2.392857142857143,
+      "demand_volatility": 2.1965143579488218,
+      "avg_price": 176.96277922393446,
+      "recent_revenue_56d": 19040.35,
+      "customer_state": "RJ",
+      "avg_delivery_risk_score": 13.16,
+      "late_delivery_rate": 0.1347,
+      "demand_change_pct": 1.4435820895522387,
+      "volatility_index": 0.9179462988442838,
+      "revenue_at_risk": 6960.97,
+      "inventory_exposure_score": 100.0,
+      "risk_level": "High",
+      "recommended_action": "Prioritize Demand Review And Reserve Capacity For This Category-State Lane."
+    },
+    {
+      "series_id": "food::SP",
+      "category": "food",
+      "store_id": "SP",
+      "state_id": "SP",
+      "forecast_units_28d": 172.08,
+      "forecast_revenue_28d": 9804.02,
+      "forecast_freight_28d": 1925.34,
+      "avg_recent_units": 1.8928571428571428,
+      "demand_volatility": 1.9322955865411051,
+      "avg_price": 61.37058045837383,
+      "recent_revenue_56d": 6522.099999999999,
+      "customer_state": "SP",
+      "avg_delivery_risk_score": 5.38,
+      "late_delivery_rate": 0.0589,
+      "demand_change_pct": 2.246792452830189,
+      "volatility_index": 1.020835404210395,
+      "revenue_at_risk": 3770.42,
+      "inventory_exposure_score": 99.8,
+      "risk_level": "High",
+      "recommended_action": "Prioritize Demand Review And Reserve Capacity For This Category-State Lane."
+    },
+    {
+      "series_id": "toys::SP",
+      "category": "toys",
+      "store_id": "SP",
+      "state_id": "SP",
+      "forecast_units_28d": 185.46,
+      "forecast_revenue_28d": 17703.420000000002,
+      "forecast_freight_28d": 2824.82,
+      "avg_recent_units": 2.5892857142857144,
+      "demand_volatility": 1.8367638113544427,
+      "avg_price": 172.96230935659193,
+      "recent_revenue_56d": 13836.84,
+      "customer_state": "SP",
+      "avg_delivery_risk_score": 5.38,
+      "late_delivery_rate": 0.0589,
+      "demand_change_pct": 1.5580689655172413,
+      "volatility_index": 0.7093708512817157,
+      "revenue_at_risk": 6367.24,
+      "inventory_exposure_score": 98.9,
+      "risk_level": "High",
+      "recommended_action": "Prioritize Demand Review And Reserve Capacity For This Category-State Lane."
+    },
+    {
+      "series_id": "auto::SP",
+      "category": "auto",
+      "store_id": "SP",
+      "state_id": "SP",
+      "forecast_units_28d": 291.41,
+      "forecast_revenue_28d": 32267.58,
+      "forecast_freight_28d": 4478.04,
+      "avg_recent_units": 5.053571428571429,
+      "demand_volatility": 3.2216294175302203,
+      "avg_price": 136.97233353530984,
+      "recent_revenue_56d": 28988.88,
+      "customer_state": "SP",
+      "avg_delivery_risk_score": 5.38,
+      "late_delivery_rate": 0.0589,
+      "demand_change_pct": 1.0594346289752652,
+      "volatility_index": 0.6374955737868987,
+      "revenue_at_risk": 9334.86,
+      "inventory_exposure_score": 90.0,
+      "risk_level": "High",
+      "recommended_action": "Prioritize Demand Review And Reserve Capacity For This Category-State Lane."
+    },
+    {
+      "series_id": "bed_bath_table::MG",
+      "category": "bed_bath_table",
+      "store_id": "MG",
+      "state_id": "MG",
+      "forecast_units_28d": 111.71000000000001,
+      "forecast_revenue_28d": 10283.13,
+      "forecast_freight_28d": 2639.67,
+      "avg_recent_units": 2.0,
+      "demand_volatility": 2.1908902300206643,
+      "avg_price": 107.04117645292025,
+      "recent_revenue_56d": 11453.7,
+      "customer_state": "MG",
+      "avg_delivery_risk_score": 6.57,
+      "late_delivery_rate": 0.0561,
+      "demand_change_pct": 0.9948214285714287,
+      "volatility_index": 1.0954451150103321,
+      "revenue_at_risk": 3283.51,
+      "inventory_exposure_score": 80.6,
+      "risk_level": "High",
+      "recommended_action": "Prioritize Demand Review And Reserve Capacity For This Category-State Lane."
+    },
+    {
+      "series_id": "computers_accessories::SP",
+      "category": "computers_accessories",
+      "store_id": "SP",
+      "state_id": "SP",
+      "forecast_units_28d": 332.46,
+      "forecast_revenue_28d": 28060.91,
+      "forecast_freight_28d": 4441.55,
+      "avg_recent_units": 6.25,
+      "demand_volatility": 4.108748980142031,
+      "avg_price": 99.39945808000854,
+      "recent_revenue_56d": 31452.0,
+      "customer_state": "SP",
+      "avg_delivery_risk_score": 5.38,
+      "late_delivery_rate": 0.0589,
+      "demand_change_pct": 0.8997714285714284,
+      "volatility_index": 0.657399836822725,
+      "revenue_at_risk": 7505.46,
+      "inventory_exposure_score": 80.1,
+      "risk_level": "High",
+      "recommended_action": "Prioritize Demand Review And Reserve Capacity For This Category-State Lane."
+    },
+    {
+      "series_id": "pet_shop::SP",
+      "category": "pet_shop",
+      "store_id": "SP",
+      "state_id": "SP",
+      "forecast_units_28d": 174.13,
+      "forecast_revenue_28d": 16518.14,
+      "forecast_freight_28d": 2776.29,
+      "avg_recent_units": 3.0714285714285716,
+      "demand_volatility": 2.388283087051471,
+      "avg_price": 141.29724409389607,
+      "recent_revenue_56d": 19841.58,
+      "customer_state": "SP",
+      "avg_delivery_risk_score": 5.38,
+      "late_delivery_rate": 0.0589,
+      "demand_change_pct": 1.0247674418604649,
+      "volatility_index": 0.7775805399702462,
+      "revenue_at_risk": 4879.75,
+      "inventory_exposure_score": 78.9,
+      "risk_level": "High",
+      "recommended_action": "Prioritize Demand Review And Reserve Capacity For This Category-State Lane."
+    },
+    {
+      "series_id": "auto::RJ",
+      "category": "auto",
+      "store_id": "RJ",
+      "state_id": "RJ",
+      "forecast_units_28d": 48.91,
+      "forecast_revenue_28d": 3647.52,
+      "forecast_freight_28d": 555.6,
+      "avg_recent_units": 0.9821428571428571,
+      "demand_volatility": 1.34151978169363,
+      "avg_price": 122.7481279154519,
+      "recent_revenue_56d": 10209.720000000001,
+      "customer_state": "RJ",
+      "avg_delivery_risk_score": 13.16,
+      "late_delivery_rate": 0.1347,
+      "demand_change_pct": 0.7785454545454544,
+      "volatility_index": 1.34151978169363,
+      "revenue_at_risk": 1178.49,
+      "inventory_exposure_score": 74.6,
+      "risk_level": "High",
+      "recommended_action": "Prioritize Demand Review And Reserve Capacity For This Category-State Lane."
+    },
+    {
+      "series_id": "auto::MG",
+      "category": "auto",
+      "store_id": "MG",
+      "state_id": "MG",
+      "forecast_units_28d": 76.92,
+      "forecast_revenue_28d": 7614.01,
+      "forecast_freight_28d": 1372.57,
+      "avg_recent_units": 1.4642857142857142,
+      "demand_volatility": 1.4265570213156342,
+      "avg_price": 142.74805817020686,
+      "recent_revenue_56d": 8731.39,
+      "customer_state": "MG",
+      "avg_delivery_risk_score": 6.57,
+      "late_delivery_rate": 0.0561,
+      "demand_change_pct": 0.8760975609756099,
+      "volatility_index": 0.9742340633375064,
+      "revenue_at_risk": 2224.82,
+      "inventory_exposure_score": 70.4,
+      "risk_level": "High",
+      "recommended_action": "Prioritize Demand Review And Reserve Capacity For This Category-State Lane."
+    },
+    {
+      "series_id": "housewares::RJ",
+      "category": "housewares",
+      "store_id": "RJ",
+      "state_id": "RJ",
+      "forecast_units_28d": 111.12,
+      "forecast_revenue_28d": 6305.45,
+      "forecast_freight_28d": 1708.6399999999999,
+      "avg_recent_units": 2.1607142857142856,
+      "demand_volatility": 2.0429638515405255,
+      "avg_price": 74.54095894071915,
+      "recent_revenue_56d": 12961.439999999999,
+      "customer_state": "RJ",
+      "avg_delivery_risk_score": 13.16,
+      "late_delivery_rate": 0.1347,
+      "demand_change_pct": 0.8366942148760332,
+      "volatility_index": 0.9455039312914829,
+      "revenue_at_risk": 1891.25,
+      "inventory_exposure_score": 69.8,
+      "risk_level": "Medium",
+      "recommended_action": "Watch For Demand Acceleration And Validate Replenishment Coverage."
+    },
+    {
+      "series_id": "furniture_decor::SP",
+      "category": "furniture_decor",
+      "store_id": "SP",
+      "state_id": "SP",
+      "forecast_units_28d": 300.76,
+      "forecast_revenue_28d": 24222.33,
+      "forecast_freight_28d": 4922.46,
+      "avg_recent_units": 6.357142857142857,
+      "demand_volatility": 4.668768852428078,
+      "avg_price": 86.68931429079603,
+      "recent_revenue_56d": 30257.34,
+      "customer_state": "SP",
+      "avg_delivery_risk_score": 5.38,
+      "late_delivery_rate": 0.0589,
+      "demand_change_pct": 0.6896629213483145,
+      "volatility_index": 0.7344130779100349,
+      "revenue_at_risk": 5881.56,
+      "inventory_exposure_score": 69.7,
+      "risk_level": "Medium",
+      "recommended_action": "Watch For Demand Acceleration And Validate Replenishment Coverage."
+    },
+    {
+      "series_id": "health_beauty::MG",
+      "category": "health_beauty",
+      "store_id": "MG",
+      "state_id": "MG",
+      "forecast_units_28d": 153.5,
+      "forecast_revenue_28d": 12430.08,
+      "forecast_freight_28d": 1650.75,
+      "avg_recent_units": 2.892857142857143,
+      "demand_volatility": 2.015201965322325,
+      "avg_price": 132.33002429543245,
+      "recent_revenue_56d": 28040.97,
+      "customer_state": "MG",
+      "avg_delivery_risk_score": 6.57,
+      "late_delivery_rate": 0.0561,
+      "demand_change_pct": 0.8950617283950617,
+      "volatility_index": 0.6966130250496926,
+      "revenue_at_risk": 3390.59,
+      "inventory_exposure_score": 68.5,
+      "risk_level": "Medium",
+      "recommended_action": "Watch For Demand Acceleration And Validate Replenishment Coverage."
+    },
+    {
+      "series_id": "baby::SP",
+      "category": "baby",
+      "store_id": "SP",
+      "state_id": "SP",
+      "forecast_units_28d": 168.12,
+      "forecast_revenue_28d": 14104.93,
+      "forecast_freight_28d": 2016.88,
+      "avg_recent_units": 3.2142857142857144,
+      "demand_volatility": 2.033485907269813,
+      "avg_price": 116.70918760568068,
+      "recent_revenue_56d": 17108.54,
+      "customer_state": "SP",
+      "avg_delivery_risk_score": 5.38,
+      "late_delivery_rate": 0.0589,
+      "demand_change_pct": 0.8680000000000001,
+      "volatility_index": 0.6326400600394972,
+      "revenue_at_risk": 3678.99,
+      "inventory_exposure_score": 66.7,
+      "risk_level": "Medium",
+      "recommended_action": "Watch For Demand Acceleration And Validate Replenishment Coverage."
+    },
+    {
+      "series_id": "watches_gifts::SP",
+      "category": "watches_gifts",
+      "store_id": "SP",
+      "state_id": "SP",
+      "forecast_units_28d": 232.08,
+      "forecast_revenue_28d": 41779.06,
+      "forecast_freight_28d": 3134.56,
+      "avg_recent_units": 6.035714285714286,
+      "demand_volatility": 3.2020691362378098,
+      "avg_price": 281.8621609430101,
+      "recent_revenue_56d": 52038.759999999995,
+      "customer_state": "SP",
+      "avg_delivery_risk_score": 5.38,
+      "late_delivery_rate": 0.0589,
+      "demand_change_pct": 0.3732544378698226,
+      "volatility_index": 0.5305203302642525,
+      "revenue_at_risk": 7524.31,
+      "inventory_exposure_score": 65.6,
+      "risk_level": "Medium",
+      "recommended_action": "Watch For Demand Acceleration And Validate Replenishment Coverage."
+    },
+    {
+      "series_id": "stationery::SP",
+      "category": "stationery",
+      "store_id": "SP",
+      "state_id": "SP",
+      "forecast_units_28d": 156.28,
+      "forecast_revenue_28d": 12380.09,
+      "forecast_freight_28d": 2368.19,
+      "avg_recent_units": 3.125,
+      "demand_volatility": 2.3281869653132556,
+      "avg_price": 100.7674187533393,
+      "recent_revenue_56d": 14543.02,
+      "customer_state": "SP",
+      "avg_delivery_risk_score": 5.38,
+      "late_delivery_rate": 0.0589,
+      "demand_change_pct": 0.7860571428571428,
+      "volatility_index": 0.7450198289002418,
+      "revenue_at_risk": 3191.61,
+      "inventory_exposure_score": 64.4,
+      "risk_level": "Medium",
+      "recommended_action": "Watch For Demand Acceleration And Validate Replenishment Coverage."
+    },
+    {
+      "series_id": "housewares::MG",
+      "category": "housewares",
+      "store_id": "MG",
+      "state_id": "MG",
+      "forecast_units_28d": 95.96000000000001,
+      "forecast_revenue_28d": 5601.29,
+      "forecast_freight_28d": 1383.87,
+      "avg_recent_units": 2.017857142857143,
+      "demand_volatility": 2.0314891217892486,
+      "avg_price": 82.78639035836613,
+      "recent_revenue_56d": 13381.68,
+      "customer_state": "MG",
+      "avg_delivery_risk_score": 6.57,
+      "late_delivery_rate": 0.0561,
+      "demand_change_pct": 0.6984070796460178,
+      "volatility_index": 1.0067556709752028,
+      "revenue_at_risk": 1505.3,
+      "inventory_exposure_score": 61.8,
+      "risk_level": "Medium",
+      "recommended_action": "Watch For Demand Acceleration And Validate Replenishment Coverage."
+    },
+    {
+      "series_id": "fashion_bags_accessories::SP",
+      "category": "fashion_bags_accessories",
+      "store_id": "SP",
+      "state_id": "SP",
+      "forecast_units_28d": 81.71,
+      "forecast_revenue_28d": 4077.25,
+      "forecast_freight_28d": 654.55,
+      "avg_recent_units": 1.6607142857142858,
+      "demand_volatility": 1.5871848802694173,
+      "avg_price": 67.16889759632981,
+      "recent_revenue_56d": 5640.29,
+      "customer_state": "SP",
+      "avg_delivery_risk_score": 5.38,
+      "late_delivery_rate": 0.0589,
+      "demand_change_pct": 0.7572043010752687,
+      "volatility_index": 0.955724228979434,
+      "revenue_at_risk": 1102.6,
+      "inventory_exposure_score": 61.3,
+      "risk_level": "Medium",
+      "recommended_action": "Watch For Demand Acceleration And Validate Replenishment Coverage."
+    },
+    {
+      "series_id": "perfumery::RJ",
+      "category": "perfumery",
+      "store_id": "RJ",
+      "state_id": "RJ",
+      "forecast_units_28d": 35.4,
+      "forecast_revenue_28d": 4170.99,
+      "forecast_freight_28d": 532.37,
+      "avg_recent_units": 0.8214285714285714,
+      "demand_volatility": 1.1771636613972951,
+      "avg_price": 153.3401864674441,
+      "recent_revenue_56d": 4305.58,
+      "customer_state": "RJ",
+      "avg_delivery_risk_score": 13.16,
+      "late_delivery_rate": 0.1347,
+      "demand_change_pct": 0.5391304347826087,
+      "volatility_index": 1.1771636613972951,
+      "revenue_at_risk": 1146.31,
+      "inventory_exposure_score": 60.7,
+      "risk_level": "Medium",
+      "recommended_action": "Watch For Demand Acceleration And Validate Replenishment Coverage."
+    },
+    {
+      "series_id": "sports_leisure::SP",
+      "category": "sports_leisure",
+      "store_id": "SP",
+      "state_id": "SP",
+      "forecast_units_28d": 314.98,
+      "forecast_revenue_28d": 26702.57,
+      "forecast_freight_28d": 3952.84,
+      "avg_recent_units": 7.553571428571429,
+      "demand_volatility": 4.467741519572757,
+      "avg_price": 104.49308468536528,
+      "recent_revenue_56d": 42146.979999999996,
+      "customer_state": "SP",
+      "avg_delivery_risk_score": 5.38,
+      "late_delivery_rate": 0.0589,
+      "demand_change_pct": 0.4892671394799055,
+      "volatility_index": 0.5914740546006486,
+      "revenue_at_risk": 5393.63,
+      "inventory_exposure_score": 59.7,
+      "risk_level": "Medium",
+      "recommended_action": "Watch For Demand Acceleration And Validate Replenishment Coverage."
+    },
+    {
+      "series_id": "bed_bath_table::RJ",
+      "category": "bed_bath_table",
+      "store_id": "RJ",
+      "state_id": "RJ",
+      "forecast_units_28d": 131.35999999999999,
+      "forecast_revenue_28d": 10027.49,
+      "forecast_freight_28d": 3124.33,
+      "avg_recent_units": 2.9642857142857144,
+      "demand_volatility": 2.5079095656762402,
+      "avg_price": 85.87867966626973,
+      "recent_revenue_56d": 11824.880000000001,
+      "customer_state": "RJ",
+      "avg_delivery_risk_score": 13.16,
+      "late_delivery_rate": 0.1347,
+      "demand_change_pct": 0.5826506024096383,
+      "volatility_index": 0.8460417811919846,
+      "revenue_at_risk": 2554.23,
+      "inventory_exposure_score": 59.5,
+      "risk_level": "Medium",
+      "recommended_action": "Watch For Demand Acceleration And Validate Replenishment Coverage."
+    },
+    {
+      "series_id": "construction_tools_construction::SP",
+      "category": "construction_tools_construction",
+      "store_id": "SP",
+      "state_id": "SP",
+      "forecast_units_28d": 107.4,
+      "forecast_revenue_28d": 4177.6,
+      "forecast_freight_28d": 402.73,
+      "avg_recent_units": 2.392857142857143,
+      "demand_volatility": 2.7080927299053545,
+      "avg_price": 90.61594693183396,
+      "recent_revenue_56d": 18690.66,
+      "customer_state": "SP",
+      "avg_delivery_risk_score": 5.38,
+      "late_delivery_rate": 0.0589,
+      "demand_change_pct": 0.6029850746268657,
+      "volatility_index": 1.131740245333581,
+      "revenue_at_risk": 1094.07,
+      "inventory_exposure_score": 59.0,
+      "risk_level": "Medium",
+      "recommended_action": "Watch For Demand Acceleration And Validate Replenishment Coverage."
+    },
+    {
+      "series_id": "health_beauty::PR",
+      "category": "health_beauty",
+      "store_id": "PR",
+      "state_id": "PR",
+      "forecast_units_28d": 46.0,
+      "forecast_revenue_28d": 3312.25,
+      "forecast_freight_28d": 540.31,
+      "avg_recent_units": 1.0,
+      "demand_volatility": 1.026910636104941,
+      "avg_price": 110.92029397473276,
+      "recent_revenue_56d": 8171.25,
+      "customer_state": "PR",
+      "avg_delivery_risk_score": 6.05,
+      "late_delivery_rate": 0.05,
+      "demand_change_pct": 0.6428571428571428,
+      "volatility_index": 1.026910636104941,
+      "revenue_at_risk": 864.36,
+      "inventory_exposure_score": 57.8,
+      "risk_level": "Medium",
+      "recommended_action": "Watch For Demand Acceleration And Validate Replenishment Coverage."
+    },
+    {
+      "series_id": "small_appliances::SP",
+      "category": "small_appliances",
+      "store_id": "SP",
+      "state_id": "SP",
+      "forecast_units_28d": 24.01,
+      "forecast_revenue_28d": 2638.71,
+      "forecast_freight_28d": 342.17,
+      "avg_recent_units": 0.5178571428571429,
+      "demand_volatility": 1.0267525404014246,
+      "avg_price": 349.84896084964595,
+      "recent_revenue_56d": 5079.79,
+      "customer_state": "SP",
+      "avg_delivery_risk_score": 5.38,
+      "late_delivery_rate": 0.0589,
+      "demand_change_pct": 0.6558620689655172,
+      "volatility_index": 1.0267525404014246,
+      "revenue_at_risk": 689.35,
+      "inventory_exposure_score": 57.5,
+      "risk_level": "Medium",
+      "recommended_action": "Watch For Demand Acceleration And Validate Replenishment Coverage."
+    },
+    {
+      "series_id": "luggage_accessories::SP",
+      "category": "luggage_accessories",
+      "store_id": "SP",
+      "state_id": "SP",
+      "forecast_units_28d": 38.22,
+      "forecast_revenue_28d": 3629.54,
+      "forecast_freight_28d": 735.62,
+      "avg_recent_units": 0.9285714285714286,
+      "demand_volatility": 1.2337252214646184,
+      "avg_price": 113.28771598639456,
+      "recent_revenue_56d": 4896.3,
+      "customer_state": "SP",
+      "avg_delivery_risk_score": 5.38,
+      "late_delivery_rate": 0.0589,
+      "demand_change_pct": 0.47,
+      "volatility_index": 1.2337252214646184,
+      "revenue_at_risk": 909.36,
+      "inventory_exposure_score": 55.2,
+      "risk_level": "Medium",
+      "recommended_action": "Watch For Demand Acceleration And Validate Replenishment Coverage."
+    },
+    {
+      "series_id": "housewares::SP",
+      "category": "housewares",
+      "store_id": "SP",
+      "state_id": "SP",
+      "forecast_units_28d": 362.72,
+      "forecast_revenue_28d": 29013.09,
+      "forecast_freight_28d": 5596.53,
+      "avg_recent_units": 9.803571428571429,
+      "demand_volatility": 5.651772506703757,
+      "avg_price": 87.50224085544761,
+      "recent_revenue_56d": 52024.869999999995,
+      "customer_state": "SP",
+      "avg_delivery_risk_score": 5.38,
+      "late_delivery_rate": 0.0589,
+      "demand_change_pct": 0.3213843351548271,
+      "volatility_index": 0.5765013850189625,
+      "revenue_at_risk": 5111.19,
+      "inventory_exposure_score": 53.9,
+      "risk_level": "Medium",
+      "recommended_action": "Watch For Demand Acceleration And Validate Replenishment Coverage."
+    },
+    {
+      "series_id": "garden_tools::RJ",
+      "category": "garden_tools",
+      "store_id": "RJ",
+      "state_id": "RJ",
+      "forecast_units_28d": 23.79,
+      "forecast_revenue_28d": 2307.99,
+      "forecast_freight_28d": 558.07,
+      "avg_recent_units": 0.5178571428571429,
+      "demand_volatility": 0.7625572152261799,
+      "avg_price": 195.97572663351056,
+      "recent_revenue_56d": 5635.73,
+      "customer_state": "RJ",
+      "avg_delivery_risk_score": 13.16,
+      "late_delivery_rate": 0.1347,
+      "demand_change_pct": 0.6406896551724135,
+      "volatility_index": 0.7625572152261799,
+      "revenue_at_risk": 592.13,
+      "inventory_exposure_score": 53.7,
+      "risk_level": "Medium",
+      "recommended_action": "Watch For Demand Acceleration And Validate Replenishment Coverage."
+    },
+    {
+      "series_id": "furniture_decor::MG",
+      "category": "furniture_decor",
+      "store_id": "MG",
+      "state_id": "MG",
+      "forecast_units_28d": 60.39,
+      "forecast_revenue_28d": 3616.7,
+      "forecast_freight_28d": 941.49,
+      "avg_recent_units": 1.4642857142857142,
+      "demand_volatility": 1.5369898055412279,
+      "avg_price": 78.12180749340553,
+      "recent_revenue_56d": 9180.8,
+      "customer_state": "MG",
+      "avg_delivery_risk_score": 6.57,
+      "late_delivery_rate": 0.0561,
+      "demand_change_pct": 0.47292682926829266,
+      "volatility_index": 1.0496515745159605,
+      "revenue_at_risk": 864.76,
+      "inventory_exposure_score": 51.4,
+      "risk_level": "Medium",
+      "recommended_action": "Watch For Demand Acceleration And Validate Replenishment Coverage."
+    },
+    {
+      "series_id": "housewares::RS",
+      "category": "housewares",
+      "store_id": "RS",
+      "state_id": "RS",
+      "forecast_units_28d": 46.7,
+      "forecast_revenue_28d": 4155.11,
+      "forecast_freight_28d": 1100.4,
+      "avg_recent_units": 1.2678571428571428,
+      "demand_volatility": 1.6010345681189049,
+      "avg_price": 105.72149033967328,
+      "recent_revenue_56d": 6274.63,
+      "customer_state": "RS",
+      "avg_delivery_risk_score": 8.04,
+      "late_delivery_rate": 0.0715,
+      "demand_change_pct": 0.3154929577464789,
+      "volatility_index": 1.2627878283754743,
+      "revenue_at_risk": 983.06,
+      "inventory_exposure_score": 50.8,
+      "risk_level": "Medium",
+      "recommended_action": "Watch For Demand Acceleration And Validate Replenishment Coverage."
+    },
+    {
+      "series_id": "computers_accessories::RJ",
+      "category": "computers_accessories",
+      "store_id": "RJ",
+      "state_id": "RJ",
+      "forecast_units_28d": 66.48,
+      "forecast_revenue_28d": 5837.64,
+      "forecast_freight_28d": 1318.27,
+      "avg_recent_units": 1.6964285714285714,
+      "demand_volatility": 1.5945320528394742,
+      "avg_price": 114.7084265779572,
+      "recent_revenue_56d": 8853.0,
+      "customer_state": "RJ",
+      "avg_delivery_risk_score": 13.16,
+      "late_delivery_rate": 0.1347,
+      "demand_change_pct": 0.39957894736842103,
+      "volatility_index": 0.9399346837790585,
+      "revenue_at_risk": 1374.09,
+      "inventory_exposure_score": 50.4,
+      "risk_level": "Medium",
+      "recommended_action": "Watch For Demand Acceleration And Validate Replenishment Coverage."
+    },
+    {
+      "series_id": "garden_tools::MG",
+      "category": "garden_tools",
+      "store_id": "MG",
+      "state_id": "MG",
+      "forecast_units_28d": 28.13,
+      "forecast_revenue_28d": 2780.26,
+      "forecast_freight_28d": 556.53,
+      "avg_recent_units": 0.6607142857142857,
+      "demand_volatility": 0.9395702250455832,
+      "avg_price": 149.69480778421448,
+      "recent_revenue_56d": 3896.49,
+      "customer_state": "MG",
+      "avg_delivery_risk_score": 6.57,
+      "late_delivery_rate": 0.0561,
+      "demand_change_pct": 0.5205405405405406,
+      "volatility_index": 0.9395702250455832,
+      "revenue_at_risk": 659.7,
+      "inventory_exposure_score": 50.2,
+      "risk_level": "Medium",
+      "recommended_action": "Watch For Demand Acceleration And Validate Replenishment Coverage."
+    },
+    {
+      "series_id": "sports_leisure::RS",
+      "category": "sports_leisure",
+      "store_id": "RS",
+      "state_id": "RS",
+      "forecast_units_28d": 23.38,
+      "forecast_revenue_28d": 1635.19,
+      "forecast_freight_28d": 385.64,
+      "avg_recent_units": 0.5535714285714286,
+      "demand_volatility": 0.932633472916984,
+      "avg_price": 103.75473604748021,
+      "recent_revenue_56d": 2627.62,
+      "customer_state": "RS",
+      "avg_delivery_risk_score": 8.04,
+      "late_delivery_rate": 0.0715,
+      "demand_change_pct": 0.5083870967741935,
+      "volatility_index": 0.932633472916984,
+      "revenue_at_risk": 389.94,
+      "inventory_exposure_score": 49.2,
+      "risk_level": "Medium",
+      "recommended_action": "Watch For Demand Acceleration And Validate Replenishment Coverage."
+    },
+    {
+      "series_id": "bed_bath_table::SC",
+      "category": "bed_bath_table",
+      "store_id": "SC",
+      "state_id": "SC",
+      "forecast_units_28d": 23.37,
+      "forecast_revenue_28d": 1590.5900000000001,
+      "forecast_freight_28d": 347.55,
+      "avg_recent_units": 0.5357142857142857,
+      "demand_volatility": 0.8082368175521042,
+      "avg_price": 90.93558454810496,
+      "recent_revenue_56d": 3103.6400000000003,
+      "customer_state": "SC",
+      "avg_delivery_risk_score": 9.93,
+      "late_delivery_rate": 0.0976,
+      "demand_change_pct": 0.558,
+      "volatility_index": 0.8082368175521042,
+      "revenue_at_risk": 382.27,
+      "inventory_exposure_score": 49.2,
+      "risk_level": "Medium",
+      "recommended_action": "Watch For Demand Acceleration And Validate Replenishment Coverage."
+    }
+  ],
+  "deliveryState": [
+    {
+      "customer_state": "AL",
+      "orders": 397,
+      "avg_delivery_risk_score": 25.86,
+      "late_delivery_rate": 0.2393,
+      "total_revenue": 78855.72,
+      "avg_freight": 38.58
+    },
+    {
+      "customer_state": "MA",
+      "orders": 717,
+      "avg_delivery_risk_score": 17.91,
+      "late_delivery_rate": 0.1967,
+      "total_revenue": 117009.38,
+      "avg_freight": 42.95
+    },
+    {
+      "customer_state": "BA",
+      "orders": 3256,
+      "avg_delivery_risk_score": 15.92,
+      "late_delivery_rate": 0.1404,
+      "total_revenue": 493584.14,
+      "avg_freight": 29.96
+    },
+    {
+      "customer_state": "CE",
+      "orders": 1279,
+      "avg_delivery_risk_score": 14.96,
+      "late_delivery_rate": 0.1532,
+      "total_revenue": 219757.38,
+      "avg_freight": 36.5
+    },
+    {
+      "customer_state": "SE",
+      "orders": 335,
+      "avg_delivery_risk_score": 13.76,
+      "late_delivery_rate": 0.1522,
+      "total_revenue": 56574.19,
+      "avg_freight": 40.94
+    },
+    {
+      "customer_state": "RJ",
+      "orders": 12350,
+      "avg_delivery_risk_score": 13.16,
+      "late_delivery_rate": 0.1347,
+      "total_revenue": 1759651.13,
+      "avg_freight": 23.95
+    },
+    {
+      "customer_state": "PB",
+      "orders": 517,
+      "avg_delivery_risk_score": 13.01,
+      "late_delivery_rate": 0.1103,
+      "total_revenue": 112586.82,
+      "avg_freight": 48.84
+    },
+    {
+      "customer_state": "PI",
+      "orders": 476,
+      "avg_delivery_risk_score": 12.67,
+      "late_delivery_rate": 0.1597,
+      "total_revenue": 84721.0,
+      "avg_freight": 42.98
+    },
+    {
+      "customer_state": "PE",
+      "orders": 1593,
+      "avg_delivery_risk_score": 12.03,
+      "late_delivery_rate": 0.108,
+      "total_revenue": 251889.49,
+      "avg_freight": 35.83
+    },
+    {
+      "customer_state": "PA",
+      "orders": 946,
+      "avg_delivery_risk_score": 11.69,
+      "late_delivery_rate": 0.1237,
+      "total_revenue": 174470.59,
+      "avg_freight": 39.7
+    },
+    {
+      "customer_state": "ES",
+      "orders": 1995,
+      "avg_delivery_risk_score": 11.05,
+      "late_delivery_rate": 0.1223,
+      "total_revenue": 268643.45,
+      "avg_freight": 24.57
+    },
+    {
+      "customer_state": "MS",
+      "orders": 701,
+      "avg_delivery_risk_score": 10.56,
+      "late_delivery_rate": 0.1155,
+      "total_revenue": 115429.97,
+      "avg_freight": 27.02
+    },
+    {
+      "customer_state": "RN",
+      "orders": 474,
+      "avg_delivery_risk_score": 10.35,
+      "late_delivery_rate": 0.1076,
+      "total_revenue": 82105.66,
+      "avg_freight": 39.26
+    },
+    {
+      "customer_state": "TO",
+      "orders": 274,
+      "avg_delivery_risk_score": 10.08,
+      "late_delivery_rate": 0.1277,
+      "total_revenue": 48402.51,
+      "avg_freight": 42.35
+    },
+    {
+      "customer_state": "SC",
+      "orders": 3546,
+      "avg_delivery_risk_score": 9.93,
+      "late_delivery_rate": 0.0976,
+      "total_revenue": 507012.13,
+      "avg_freight": 24.85
+    },
+    {
+      "customer_state": "GO",
+      "orders": 1957,
+      "avg_delivery_risk_score": 9.38,
+      "late_delivery_rate": 0.0818,
+      "total_revenue": 282836.7,
+      "avg_freight": 26.25
+    },
+    {
+      "customer_state": "DF",
+      "orders": 2080,
+      "avg_delivery_risk_score": 8.34,
+      "late_delivery_rate": 0.0707,
+      "total_revenue": 296498.41,
+      "avg_freight": 23.86
+    },
+    {
+      "customer_state": "RS",
+      "orders": 5344,
+      "avg_delivery_risk_score": 8.04,
+      "late_delivery_rate": 0.0715,
+      "total_revenue": 728718.47,
+      "avg_freight": 24.81
+    },
+    {
+      "customer_state": "MT",
+      "orders": 886,
+      "avg_delivery_risk_score": 7.74,
+      "late_delivery_rate": 0.0677,
+      "total_revenue": 152191.62,
+      "avg_freight": 32.77
+    },
+    {
+      "customer_state": "MG",
+      "orders": 11354,
+      "avg_delivery_risk_score": 6.57,
+      "late_delivery_rate": 0.0561,
+      "total_revenue": 1552481.83,
+      "avg_freight": 23.46
+    },
+    {
+      "customer_state": "AC",
+      "orders": 80,
+      "avg_delivery_risk_score": 6.37,
+      "late_delivery_rate": 0.0375,
+      "total_revenue": 15930.97,
+      "avg_freight": 45.55
+    },
+    {
+      "customer_state": "PR",
+      "orders": 4923,
+      "avg_delivery_risk_score": 6.05,
+      "late_delivery_rate": 0.05,
+      "total_revenue": 666063.51,
+      "avg_freight": 23.49
+    },
+    {
+      "customer_state": "RO",
+      "orders": 243,
+      "avg_delivery_risk_score": 5.7,
+      "late_delivery_rate": 0.0288,
+      "total_revenue": 45682.76,
+      "avg_freight": 46.43
+    },
+    {
+      "customer_state": "SP",
+      "orders": 40494,
+      "avg_delivery_risk_score": 5.38,
+      "late_delivery_rate": 0.0589,
+      "total_revenue": 5066562.98,
+      "avg_freight": 17.33
+    },
+    {
+      "customer_state": "AM",
+      "orders": 145,
+      "avg_delivery_risk_score": 5.13,
+      "late_delivery_rate": 0.0414,
+      "total_revenue": 22155.84,
+      "avg_freight": 37.45
+    },
+    {
+      "customer_state": "AP",
+      "orders": 67,
+      "avg_delivery_risk_score": 5.01,
+      "late_delivery_rate": 0.0448,
+      "total_revenue": 13374.81,
+      "avg_freight": 41.3
+    },
+    {
+      "customer_state": "RR",
+      "orders": 41,
+      "avg_delivery_risk_score": 4.14,
+      "late_delivery_rate": 0.122,
+      "total_revenue": 7057.47,
+      "avg_freight": 48.34
+    }
+  ],
+  "sellerRisk": [
+    {
+      "seller_id": "b1b3948701c5c72445495bd161b83a4c",
+      "seller_state": "SP",
+      "seller_city": "sao paulo",
+      "orders": 14,
+      "avg_delivery_risk_score": 28.09,
+      "late_delivery_rate": 0.6429,
+      "total_revenue": 21519.5,
+      "total_freight": 404.75
+    },
+    {
+      "seller_id": "4e5725ba188db8252977a4f0227bd462",
+      "seller_state": "SP",
+      "seller_city": "ribeirao preto",
+      "orders": 21,
+      "avg_delivery_risk_score": 24.94,
+      "late_delivery_rate": 0.2857,
+      "total_revenue": 1865.09,
+      "total_freight": 364.27
+    },
+    {
+      "seller_id": "821fb029fc6e495ca4f08a35d51e53a5",
+      "seller_state": "SP",
+      "seller_city": "sao paulo",
+      "orders": 24,
+      "avg_delivery_risk_score": 24.35,
+      "late_delivery_rate": 0.375,
+      "total_revenue": 17851.62,
+      "total_freight": 1365.55
+    },
+    {
+      "seller_id": "3e8bd881d92466e63ba9e3e809cd3c50",
+      "seller_state": "RJ",
+      "seller_city": "rio de janeiro",
+      "orders": 8,
+      "avg_delivery_risk_score": 22.82,
+      "late_delivery_rate": 0.375,
+      "total_revenue": 1862.38,
+      "total_freight": 187.43
+    },
+    {
+      "seller_id": "712e6ed8aa4aa1fa65dab41fed5737e4",
+      "seller_state": "SC",
+      "seller_city": "videira",
+      "orders": 77,
+      "avg_delivery_risk_score": 20.74,
+      "late_delivery_rate": 0.2208,
+      "total_revenue": 39385.0,
+      "total_freight": 6764.82
+    },
+    {
+      "seller_id": "d3dcf0604eabf0224fbd5948b5e02f69",
+      "seller_state": "SP",
+      "seller_city": "sao paulo",
+      "orders": 9,
+      "avg_delivery_risk_score": 20.57,
+      "late_delivery_rate": 0.3333,
+      "total_revenue": 2902.3,
+      "total_freight": 165.11
+    },
+    {
+      "seller_id": "06a2c3af7b3aee5d69171b0e14f0ee87",
+      "seller_state": "MA",
+      "seller_city": "sao luis",
+      "orders": 388,
+      "avg_delivery_risk_score": 20.49,
+      "late_delivery_rate": 0.232,
+      "total_revenue": 36030.99,
+      "total_freight": 12042.63
+    },
+    {
+      "seller_id": "ff69aa92bb6b1bf9b8b7a51c2ed9cf8b",
+      "seller_state": "SP",
+      "seller_city": "sao paulo",
+      "orders": 20,
+      "avg_delivery_risk_score": 20.28,
+      "late_delivery_rate": 0.25,
+      "total_revenue": 21940.8,
+      "total_freight": 1754.4
+    },
+    {
+      "seller_id": "2379bdc3888025689a9deb7b141507d5",
+      "seller_state": "SP",
+      "seller_city": "mogi mirim",
+      "orders": 9,
+      "avg_delivery_risk_score": 20.19,
+      "late_delivery_rate": 0.3333,
+      "total_revenue": 999.5,
+      "total_freight": 126.11
+    },
+    {
+      "seller_id": "6bb0724edf0b62fb91ac404873a97241",
+      "seller_state": "SP",
+      "seller_city": "cotia",
+      "orders": 17,
+      "avg_delivery_risk_score": 20.05,
+      "late_delivery_rate": 0.1765,
+      "total_revenue": 3653.0,
+      "total_freight": 763.52
+    },
+    {
+      "seller_id": "ad781527c93d00d89a11eecd9dcad7c1",
+      "seller_state": "SP",
+      "seller_city": "sao jose do rio preto",
+      "orders": 35,
+      "avg_delivery_risk_score": 19.98,
+      "late_delivery_rate": 0.3429,
+      "total_revenue": 6118.65,
+      "total_freight": 1935.98
+    },
+    {
+      "seller_id": "655220df33262c7e0c4949a147366f94",
+      "seller_state": "SP",
+      "seller_city": "diadema",
+      "orders": 13,
+      "avg_delivery_risk_score": 19.55,
+      "late_delivery_rate": 0.1538,
+      "total_revenue": 2245.0,
+      "total_freight": 681.53
+    },
+    {
+      "seller_id": "b0b346d3a89f5eb4c2968af3f083cd43",
+      "seller_state": "SP",
+      "seller_city": "campinas",
+      "orders": 9,
+      "avg_delivery_risk_score": 19.53,
+      "late_delivery_rate": 0.4444,
+      "total_revenue": 469.0,
+      "total_freight": 160.7
+    },
+    {
+      "seller_id": "c35affa65afd250151285c5917fc1c8a",
+      "seller_state": "SP",
+      "seller_city": "sao paluo",
+      "orders": 8,
+      "avg_delivery_risk_score": 18.9,
+      "late_delivery_rate": 0.125,
+      "total_revenue": 4779.92,
+      "total_freight": 644.84
+    },
+    {
+      "seller_id": "3a1a1fec38dd360f15fc912e821e169d",
+      "seller_state": "SP",
+      "seller_city": "sao paulo",
+      "orders": 15,
+      "avg_delivery_risk_score": 18.76,
+      "late_delivery_rate": 0.2667,
+      "total_revenue": 2073.38,
+      "total_freight": 405.23
+    },
+    {
+      "seller_id": "f5f1f2c5f923f36ad79ea1d07185ddc9",
+      "seller_state": "SP",
+      "seller_city": "taruma",
+      "orders": 10,
+      "avg_delivery_risk_score": 18.32,
+      "late_delivery_rate": 0.1,
+      "total_revenue": 1517.77,
+      "total_freight": 173.73
+    },
+    {
+      "seller_id": "7bac63f6603d382cc8d0832eb6c100a8",
+      "seller_state": "SP",
+      "seller_city": "sao paulo",
+      "orders": 19,
+      "avg_delivery_risk_score": 18.17,
+      "late_delivery_rate": 0.1579,
+      "total_revenue": 7751.95,
+      "total_freight": 362.65
+    },
+    {
+      "seller_id": "4091f77d8c768fc3e81c20761471761d",
+      "seller_state": "SP",
+      "seller_city": "sao paulo",
+      "orders": 8,
+      "avg_delivery_risk_score": 18.11,
+      "late_delivery_rate": 0.25,
+      "total_revenue": 1079.0,
+      "total_freight": 230.87
+    },
+    {
+      "seller_id": "ede0c03645598cdfc63ca8237acbe73d",
+      "seller_state": "SP",
+      "seller_city": "ribeirao preto",
+      "orders": 43,
+      "avg_delivery_risk_score": 17.97,
+      "late_delivery_rate": 0.3488,
+      "total_revenue": 2352.15,
+      "total_freight": 708.3
+    },
+    {
+      "seller_id": "26e2c91ef821e1ff8985f408788fe35b",
+      "seller_state": "SP",
+      "seller_city": "ibitinga",
+      "orders": 12,
+      "avg_delivery_risk_score": 17.94,
+      "late_delivery_rate": 0.4167,
+      "total_revenue": 1649.4,
+      "total_freight": 274.47
+    },
+    {
+      "seller_id": "2a261b5b644fa05f4f2700eb93544f2c",
+      "seller_state": "SP",
+      "seller_city": "porto ferreira",
+      "orders": 47,
+      "avg_delivery_risk_score": 17.69,
+      "late_delivery_rate": 0.2128,
+      "total_revenue": 5180.0,
+      "total_freight": 1905.08
+    },
+    {
+      "seller_id": "54965bbe3e4f07ae045b90b0b8541f52",
+      "seller_state": "PR",
+      "seller_city": "foz do iguacu",
+      "orders": 72,
+      "avg_delivery_risk_score": 17.48,
+      "late_delivery_rate": 0.3056,
+      "total_revenue": 10191.7,
+      "total_freight": 2055.18
+    },
+    {
+      "seller_id": "e64d65bc8dbec2accda90c58de5d1246",
+      "seller_state": "SP",
+      "seller_city": "rio claro",
+      "orders": 12,
+      "avg_delivery_risk_score": 17.32,
+      "late_delivery_rate": 0.3333,
+      "total_revenue": 1678.8,
+      "total_freight": 221.16
+    },
+    {
+      "seller_id": "c500367424994318b9e779ff1ae9a330",
+      "seller_state": "SP",
+      "seller_city": "paulinia",
+      "orders": 9,
+      "avg_delivery_risk_score": 17.29,
+      "late_delivery_rate": 0.1111,
+      "total_revenue": 4346.4,
+      "total_freight": 311.99
+    },
+    {
+      "seller_id": "eb3071b9f0b0ddaa2df5ea130f09f26b",
+      "seller_state": "SP",
+      "seller_city": "sao paulo",
+      "orders": 9,
+      "avg_delivery_risk_score": 16.98,
+      "late_delivery_rate": 0.1111,
+      "total_revenue": 6230.0,
+      "total_freight": 581.42
+    },
+    {
+      "seller_id": "2a61c271b1ac763450d846849783e922",
+      "seller_state": "SP",
+      "seller_city": "santo andre",
+      "orders": 17,
+      "avg_delivery_risk_score": 16.96,
+      "late_delivery_rate": 0.1765,
+      "total_revenue": 1486.77,
+      "total_freight": 482.27
+    },
+    {
+      "seller_id": "dd55f1bb788714a40e7954c3be6df745",
+      "seller_state": "SP",
+      "seller_city": "sao paulo",
+      "orders": 35,
+      "avg_delivery_risk_score": 16.9,
+      "late_delivery_rate": 0.1714,
+      "total_revenue": 7041.76,
+      "total_freight": 659.42
+    },
+    {
+      "seller_id": "40db9e9aa57f7bb151bcda6b0f9bdbb7",
+      "seller_state": "PE",
+      "seller_city": "recife",
+      "orders": 12,
+      "avg_delivery_risk_score": 16.88,
+      "late_delivery_rate": 0.0833,
+      "total_revenue": 23168.0,
+      "total_freight": 655.99
+    },
+    {
+      "seller_id": "0ffa40d54288e4f3499b8780dd0f144f",
+      "seller_state": "SP",
+      "seller_city": "presidente prudente",
+      "orders": 33,
+      "avg_delivery_risk_score": 16.51,
+      "late_delivery_rate": 0.1515,
+      "total_revenue": 2162.8,
+      "total_freight": 583.67
+    },
+    {
+      "seller_id": "fec6275253471ace26d209bbaa64cd0f",
+      "seller_state": "RJ",
+      "seller_city": "nova friburgo",
+      "orders": 9,
+      "avg_delivery_risk_score": 16.4,
+      "late_delivery_rate": 0.0,
+      "total_revenue": 2840.0,
+      "total_freight": 355.67
+    }
+  ],
+  "scenarioSummary": [
+    {
+      "scenario": "Base Case",
+      "scenario_service_risk": 0.5506,
+      "scenario_revenue_at_risk": 140837.52,
+      "scenario_forecast_units_28d": 6511.49
+    },
+    {
+      "scenario": "Combined Disruption",
+      "scenario_service_risk": 0.6286,
+      "scenario_revenue_at_risk": 213791.4,
+      "scenario_forecast_units_28d": 7488.19
+    },
+    {
+      "scenario": "Delivery Slowdown +10%",
+      "scenario_service_risk": 0.5956,
+      "scenario_revenue_at_risk": 154921.31,
+      "scenario_forecast_units_28d": 6511.49
+    },
+    {
+      "scenario": "Demand Spike +15%",
+      "scenario_service_risk": 0.5506,
+      "scenario_revenue_at_risk": 161963.13,
+      "scenario_forecast_units_28d": 7488.19
+    },
+    {
+      "scenario": "Freight Shock +20%",
+      "scenario_service_risk": 0.5841,
+      "scenario_revenue_at_risk": 169005.02,
+      "scenario_forecast_units_28d": 6511.49
+    },
+    {
+      "scenario": "Regional Rebalance",
+      "scenario_service_risk": 0.4761,
+      "scenario_revenue_at_risk": 120574.97,
+      "scenario_forecast_units_28d": 6381.27
+    }
+  ],
+  "featureImportance": [
+    {
+      "model": "Olist Demand Forecast",
+      "feature": "rolling_mean_28",
+      "importance": 0.3578206695531842
+    },
+    {
+      "model": "Olist Demand Forecast",
+      "feature": "rolling_mean_7",
+      "importance": 0.2573858335769972
+    },
+    {
+      "model": "Olist Demand Forecast",
+      "feature": "day_of_week",
+      "importance": 0.05994310834877018
+    },
+    {
+      "model": "Olist Demand Forecast",
+      "feature": "avg_price",
+      "importance": 0.021561859744553935
+    },
+    {
+      "model": "Olist Demand Forecast",
+      "feature": "lag_14",
+      "importance": 0.003394328307038933
+    },
+    {
+      "model": "Olist Demand Forecast",
+      "feature": "lag_7",
+      "importance": 0.0032737491341985336
+    },
+    {
+      "model": "Olist Demand Forecast",
+      "feature": "rolling_std_28",
+      "importance": 0.0027358641090448423
+    },
+    {
+      "model": "Olist Demand Forecast",
+      "feature": "series_id_code",
+      "importance": 0.002703418240441587
+    },
+    {
+      "model": "Olist Demand Forecast",
+      "feature": "freight_ratio_28",
+      "importance": 0.0023674365736126024
+    },
+    {
+      "model": "Olist Demand Forecast",
+      "feature": "rolling_revenue_28",
+      "importance": 0.000464438153064813
+    },
+    {
+      "model": "Olist Demand Forecast",
+      "feature": "day_of_year",
+      "importance": 0.00034293329558147495
+    },
+    {
+      "model": "Olist Demand Forecast",
+      "feature": "month",
+      "importance": 0.0
+    },
+    {
+      "model": "Olist Demand Forecast",
+      "feature": "is_weekend",
+      "importance": 0.0
+    },
+    {
+      "model": "Olist Demand Forecast",
+      "feature": "series_age_days",
+      "importance": 0.0
+    },
+    {
+      "model": "Olist Demand Forecast",
+      "feature": "category_code",
+      "importance": 0.0
+    },
+    {
+      "model": "Olist Demand Forecast",
+      "feature": "rolling_freight_28",
+      "importance": -0.0036127517276249854
+    },
+    {
+      "model": "Olist Demand Forecast",
+      "feature": "lag_28",
+      "importance": -0.006938546188034689
+    },
+    {
+      "model": "Olist Demand Forecast",
+      "feature": "state_id_code",
+      "importance": -0.014916237813619023
+    },
+    {
+      "model": "Olist Late Delivery Risk",
+      "feature": "promised_lead_days",
+      "importance": 0.28959601483735975
+    },
+    {
+      "model": "Olist Late Delivery Risk",
+      "feature": "customer_state_code",
+      "importance": 0.009453098816091058
+    },
+    {
+      "model": "Olist Late Delivery Risk",
+      "feature": "seller_state_code",
+      "importance": 0.006075233022636535
+    },
+    {
+      "model": "Olist Late Delivery Risk",
+      "feature": "purchase_month",
+      "importance": 0.005503999202876956
+    },
+    {
+      "model": "Olist Late Delivery Risk",
+      "feature": "item_count",
+      "importance": 0.002999968296239904
+    },
+    {
+      "model": "Olist Late Delivery Risk",
+      "feature": "purchase_day_of_week",
+      "importance": 0.0027545472250152616
+    },
+    {
+      "model": "Olist Late Delivery Risk",
+      "feature": "total_price",
+      "importance": 0.002634242778336423
+    },
+    {
+      "model": "Olist Late Delivery Risk",
+      "feature": "product_weight_g",
+      "importance": 0.0023118268612371353
+    },
+    {
+      "model": "Olist Late Delivery Risk",
+      "feature": "freight_ratio",
+      "importance": 0.002298239535494684
+    },
+    {
+      "model": "Olist Late Delivery Risk",
+      "feature": "purchase_hour",
+      "importance": 0.0017516327436434276
+    }
+  ],
+  "modelMetrics": [
+    {
+      "model": "Olist Demand Forecast",
+      "metric": "MAE",
+      "value": 1.733
+    },
+    {
+      "model": "Olist Demand Forecast",
+      "metric": "MAPE",
+      "value": 0.7416
+    },
+    {
+      "model": "Olist Demand Forecast",
+      "metric": "Training Rows",
+      "value": 47376.0
+    },
+    {
+      "model": "Olist Demand Forecast",
+      "metric": "Validation Rows",
+      "value": 2016.0
+    },
+    {
+      "model": "Olist Demand Forecast",
+      "metric": "Series Modeled",
+      "value": 72.0
+    },
+    {
+      "model": "Olist Late Delivery Risk",
+      "metric": "ROC AUC",
+      "value": 0.7337
+    },
+    {
+      "model": "Olist Late Delivery Risk",
+      "metric": "Average Precision",
+      "value": 0.1268
+    },
+    {
+      "model": "Olist Late Delivery Risk",
+      "metric": "F1",
+      "value": 0.2115
+    },
+    {
+      "model": "Olist Late Delivery Risk",
+      "metric": "F1 Threshold",
+      "value": 0.09
+    },
+    {
+      "model": "Olist Late Delivery Risk",
+      "metric": "Accuracy",
+      "value": 0.7983
+    },
+    {
+      "model": "Olist Late Delivery Risk",
+      "metric": "Training Rows",
+      "value": 75246.0
+    },
+    {
+      "model": "Olist Late Delivery Risk",
+      "metric": "Validation Rows",
+      "value": 21224.0
+    },
+    {
+      "model": "Olist Late Delivery Risk",
+      "metric": "Late Delivery Rate",
+      "value": 0.0811
+    }
+  ]
+}

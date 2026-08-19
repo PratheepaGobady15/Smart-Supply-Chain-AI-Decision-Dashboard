@@ -1,0 +1,433 @@
+scenario,series_id,item_id,category,store_id,state_id,scenario_forecast_units_28d,scenario_service_risk,scenario_revenue_at_risk,recommended_action
+Base Case,perfumery::SP,perfumery,perfumery,SP,SP,243.71,1.0,7867.7,Escalate Base Case: Protect Service Levels And Review Allocation.
+Base Case,cool_stuff::SP,cool_stuff,cool_stuff,SP,SP,129.76,1.0,6757.32,Escalate Base Case: Protect Service Levels And Review Allocation.
+Base Case,health_beauty::RJ,health_beauty,health_beauty,RJ,RJ,163.72,1.0,6960.97,Escalate Base Case: Protect Service Levels And Review Allocation.
+Base Case,food::SP,food,food,SP,SP,172.08,1.0,3770.42,Escalate Base Case: Protect Service Levels And Review Allocation.
+Base Case,toys::SP,toys,toys,SP,SP,185.46,1.0,6367.24,Escalate Base Case: Protect Service Levels And Review Allocation.
+Base Case,auto::SP,auto,auto,SP,SP,291.41,0.9263,9334.86,Escalate Base Case: Protect Service Levels And Review Allocation.
+Base Case,bed_bath_table::MG,bed_bath_table,bed_bath_table,MG,MG,111.71,0.8345,3283.51,Escalate Base Case: Protect Service Levels And Review Allocation.
+Base Case,computers_accessories::SP,computers_accessories,computers_accessories,SP,SP,332.46,0.8273,7505.46,Escalate Base Case: Protect Service Levels And Review Allocation.
+Base Case,pet_shop::SP,pet_shop,pet_shop,SP,SP,174.13,0.8153,4879.75,Escalate Base Case: Protect Service Levels And Review Allocation.
+Base Case,auto::RJ,auto,auto,RJ,RJ,48.91,0.7863,1178.49,Escalate Base Case: Protect Service Levels And Review Allocation.
+Base Case,auto::MG,auto,auto,MG,MG,76.92,0.7325,2224.82,Escalate Base Case: Protect Service Levels And Review Allocation.
+Base Case,housewares::RJ,housewares,housewares,RJ,RJ,111.12,0.7383,1891.25,Escalate Base Case: Protect Service Levels And Review Allocation.
+Base Case,furniture_decor::SP,furniture_decor,furniture_decor,SP,SP,300.76,0.7233,5881.56,Escalate Base Case: Protect Service Levels And Review Allocation.
+Base Case,health_beauty::MG,health_beauty,health_beauty,MG,MG,153.5,0.7135,3390.59,Escalate Base Case: Protect Service Levels And Review Allocation.
+Base Case,baby::SP,baby,baby,SP,SP,168.12,0.6933,3678.99,Escalate Base Case: Protect Service Levels And Review Allocation.
+Base Case,watches_gifts::SP,watches_gifts,watches_gifts,SP,SP,232.08,0.6823,7524.31,Escalate Base Case: Protect Service Levels And Review Allocation.
+Base Case,stationery::SP,stationery,stationery,SP,SP,156.28,0.6703,3191.61,Escalate Base Case: Protect Service Levels And Review Allocation.
+Base Case,housewares::MG,housewares,housewares,MG,MG,95.96,0.6465,1505.3,Escalate Base Case: Protect Service Levels And Review Allocation.
+Base Case,fashion_bags_accessories::SP,fashion_bags_accessories,fashion_bags_accessories,SP,SP,81.71,0.6393,1102.6,Escalate Base Case: Protect Service Levels And Review Allocation.
+Base Case,perfumery::RJ,perfumery,perfumery,RJ,RJ,35.4,0.6473,1146.31,Escalate Base Case: Protect Service Levels And Review Allocation.
+Base Case,sports_leisure::SP,sports_leisure,sports_leisure,SP,SP,314.98,0.6233,5393.63,Escalate Base Case: Protect Service Levels And Review Allocation.
+Base Case,bed_bath_table::RJ,bed_bath_table,bed_bath_table,RJ,RJ,131.36,0.6353,2554.23,Escalate Base Case: Protect Service Levels And Review Allocation.
+Base Case,construction_tools_construction::SP,construction_tools_construction,construction_tools_construction,SP,SP,107.4,0.6163,1094.07,Monitor Base Case: Rebalance Capacity Before Risk Converts To Service Loss.
+Base Case,health_beauty::PR,health_beauty,health_beauty,PR,PR,46.0,0.6055,864.36,Monitor Base Case: Rebalance Capacity Before Risk Converts To Service Loss.
+Base Case,small_appliances::SP,small_appliances,small_appliances,SP,SP,24.01,0.6013,689.35,Monitor Base Case: Rebalance Capacity Before Risk Converts To Service Loss.
+Base Case,luggage_accessories::SP,luggage_accessories,luggage_accessories,SP,SP,38.22,0.5783,909.36,Monitor Base Case: Rebalance Capacity Before Risk Converts To Service Loss.
+Base Case,housewares::SP,housewares,housewares,SP,SP,362.72,0.5653,5111.19,Monitor Base Case: Rebalance Capacity Before Risk Converts To Service Loss.
+Base Case,garden_tools::RJ,garden_tools,garden_tools,RJ,RJ,23.79,0.5773,592.13,Monitor Base Case: Rebalance Capacity Before Risk Converts To Service Loss.
+Base Case,furniture_decor::MG,furniture_decor,furniture_decor,MG,MG,60.39,0.5425,864.76,Monitor Base Case: Rebalance Capacity Before Risk Converts To Service Loss.
+Base Case,housewares::RS,housewares,housewares,RS,RS,46.7,0.5391,983.06,Monitor Base Case: Rebalance Capacity Before Risk Converts To Service Loss.
+Base Case,computers_accessories::RJ,computers_accessories,computers_accessories,RJ,RJ,66.48,0.5443,1374.09,Monitor Base Case: Rebalance Capacity Before Risk Converts To Service Loss.
+Base Case,garden_tools::MG,garden_tools,garden_tools,MG,MG,28.13,0.5305,659.7,Monitor Base Case: Rebalance Capacity Before Risk Converts To Service Loss.
+Base Case,sports_leisure::RS,sports_leisure,sports_leisure,RS,RS,23.38,0.5231,389.94,Monitor Base Case: Rebalance Capacity Before Risk Converts To Service Loss.
+Base Case,bed_bath_table::SC,bed_bath_table,bed_bath_table,SC,SC,23.37,0.5265,382.27,Monitor Base Case: Rebalance Capacity Before Risk Converts To Service Loss.
+Base Case,home_construction::SP,home_construction,home_construction,SP,SP,26.19,0.5163,768.64,Monitor Base Case: Rebalance Capacity Before Risk Converts To Service Loss.
+Base Case,health_beauty::SP,health_beauty,health_beauty,SP,SP,377.87,0.5143,5102.04,Monitor Base Case: Rebalance Capacity Before Risk Converts To Service Loss.
+Base Case,furniture_decor::SC,furniture_decor,furniture_decor,SC,SC,23.23,0.5185,432.62,Monitor Base Case: Rebalance Capacity Before Risk Converts To Service Loss.
+Base Case,perfumery::MG,perfumery,perfumery,MG,MG,30.05,0.5065,620.29,Monitor Base Case: Rebalance Capacity Before Risk Converts To Service Loss.
+Base Case,cool_stuff::RJ,cool_stuff,cool_stuff,RJ,RJ,22.1,0.5043,696.07,Monitor Base Case: Rebalance Capacity Before Risk Converts To Service Loss.
+Base Case,bed_bath_table::SP,bed_bath_table,bed_bath_table,SP,SP,367.32,0.4843,4346.78,Monitor Base Case: Rebalance Capacity Before Risk Converts To Service Loss.
+Base Case,sports_leisure::SC,sports_leisure,sports_leisure,SC,SC,26.6,0.4885,653.25,Monitor Base Case: Rebalance Capacity Before Risk Converts To Service Loss.
+Base Case,health_beauty::SC,health_beauty,health_beauty,SC,SC,29.41,0.4645,479.52,Monitor Base Case: Rebalance Capacity Before Risk Converts To Service Loss.
+Base Case,computers_accessories::PR,computers_accessories,computers_accessories,PR,PR,26.99,0.4565,415.99,Monitor Base Case: Rebalance Capacity Before Risk Converts To Service Loss.
+Base Case,watches_gifts::RJ,watches_gifts,watches_gifts,RJ,RJ,55.45,0.4463,1783.98,Monitor Base Case: Rebalance Capacity Before Risk Converts To Service Loss.
+Base Case,electronics::RJ,electronics,electronics,RJ,RJ,23.29,0.4463,195.77,Monitor Base Case: Rebalance Capacity Before Risk Converts To Service Loss.
+Base Case,sports_leisure::MG,sports_leisure,sports_leisure,MG,MG,46.22,0.4325,873.02,Monitor Base Case: Rebalance Capacity Before Risk Converts To Service Loss.
+Base Case,furniture_decor::PR,furniture_decor,furniture_decor,PR,PR,39.45,0.4235,686.94,Monitor Base Case: Rebalance Capacity Before Risk Converts To Service Loss.
+Base Case,bed_bath_table::PR,bed_bath_table,bed_bath_table,PR,PR,27.59,0.4235,446.76,Monitor Base Case: Rebalance Capacity Before Risk Converts To Service Loss.
+Base Case,toys::MG,toys,toys,MG,MG,22.77,0.4225,482.63,Monitor Base Case: Rebalance Capacity Before Risk Converts To Service Loss.
+Base Case,telephony::RJ,telephony,telephony,RJ,RJ,25.21,0.4333,165.42,Monitor Base Case: Rebalance Capacity Before Risk Converts To Service Loss.
+Base Case,telephony::MG,telephony,telephony,MG,MG,21.49,0.4205,132.7,Monitor Base Case: Rebalance Capacity Before Risk Converts To Service Loss.
+Base Case,musical_instruments::SP,musical_instruments,musical_instruments,SP,SP,22.36,0.4123,1059.75,Monitor Base Case: Rebalance Capacity Before Risk Converts To Service Loss.
+Base Case,baby::MG,baby,baby,MG,MG,25.37,0.4105,402.93,Monitor Base Case: Rebalance Capacity Before Risk Converts To Service Loss.
+Base Case,furniture_decor::RS,furniture_decor,furniture_decor,RS,RS,28.04,0.3991,374.85,Monitor Base Case: Rebalance Capacity Before Risk Converts To Service Loss.
+Base Case,health_beauty::BA,health_beauty,health_beauty,BA,BA,26.54,0.4103,568.15,Monitor Base Case: Rebalance Capacity Before Risk Converts To Service Loss.
+Base Case,computers_accessories::RS,computers_accessories,computers_accessories,RS,RS,22.8,0.3961,307.94,Monitor Base Case: Rebalance Capacity Before Risk Converts To Service Loss.
+Base Case,office_furniture::SP,office_furniture,office_furniture,SP,SP,25.42,0.3863,648.13,Monitor Base Case: Rebalance Capacity Before Risk Converts To Service Loss.
+Base Case,unknown::SP,unknown,unknown,SP,SP,24.83,0.3863,238.71,Monitor Base Case: Rebalance Capacity Before Risk Converts To Service Loss.
+Base Case,home_appliances::SP,home_appliances,home_appliances,SP,SP,36.27,0.3823,475.03,Monitor Base Case: Rebalance Capacity Before Risk Converts To Service Loss.
+Base Case,furniture_decor::RJ,furniture_decor,furniture_decor,RJ,RJ,43.24,0.3943,581.52,Monitor Base Case: Rebalance Capacity Before Risk Converts To Service Loss.
+Base Case,housewares::PR,housewares,housewares,PR,PR,33.1,0.3675,282.35,Maintain Base Case: Current Exposure Is Manageable.
+Base Case,computers_accessories::MG,computers_accessories,computers_accessories,MG,MG,51.15,0.3615,859.04,Maintain Base Case: Current Exposure Is Manageable.
+Base Case,sports_leisure::RJ,sports_leisure,sports_leisure,RJ,RJ,48.66,0.3693,705.98,Maintain Base Case: Current Exposure Is Manageable.
+Base Case,baby::RJ,baby,baby,RJ,RJ,25.72,0.3623,459.41,Maintain Base Case: Current Exposure Is Manageable.
+Base Case,bed_bath_table::RS,bed_bath_table,bed_bath_table,RS,RS,25.54,0.3531,417.31,Maintain Base Case: Current Exposure Is Manageable.
+Base Case,watches_gifts::PR,watches_gifts,watches_gifts,PR,PR,23.33,0.3455,771.4,Maintain Base Case: Current Exposure Is Manageable.
+Base Case,health_beauty::RS,health_beauty,health_beauty,RS,RS,30.11,0.3471,523.99,Maintain Base Case: Current Exposure Is Manageable.
+Base Case,watches_gifts::MG,watches_gifts,watches_gifts,MG,MG,32.63,0.3355,795.05,Maintain Base Case: Current Exposure Is Manageable.
+Base Case,sports_leisure::PR,sports_leisure,sports_leisure,PR,PR,24.8,0.3285,315.19,Maintain Base Case: Current Exposure Is Manageable.
+Base Case,garden_tools::SP,garden_tools,garden_tools,SP,SP,62.23,0.3183,699.78,Maintain Base Case: Current Exposure Is Manageable.
+Base Case,telephony::SP,telephony,telephony,SP,SP,104.69,0.3113,507.54,Maintain Base Case: Current Exposure Is Manageable.
+Base Case,electronics::SP,electronics,electronics,SP,SP,41.3,0.2753,255.85,Maintain Base Case: Current Exposure Is Manageable.
+Demand Spike +15%,perfumery::SP,perfumery,perfumery,SP,SP,280.27,1.0,9047.85,Escalate Demand Spike +15%: Protect Service Levels And Review Allocation.
+Demand Spike +15%,cool_stuff::SP,cool_stuff,cool_stuff,SP,SP,149.22,1.0,7770.92,Escalate Demand Spike +15%: Protect Service Levels And Review Allocation.
+Demand Spike +15%,health_beauty::RJ,health_beauty,health_beauty,RJ,RJ,188.28,1.0,8005.12,Escalate Demand Spike +15%: Protect Service Levels And Review Allocation.
+Demand Spike +15%,food::SP,food,food,SP,SP,197.89,1.0,4335.98,Escalate Demand Spike +15%: Protect Service Levels And Review Allocation.
+Demand Spike +15%,toys::SP,toys,toys,SP,SP,213.28,1.0,7322.33,Escalate Demand Spike +15%: Protect Service Levels And Review Allocation.
+Demand Spike +15%,auto::SP,auto,auto,SP,SP,335.12,0.9263,10735.09,Escalate Demand Spike +15%: Protect Service Levels And Review Allocation.
+Demand Spike +15%,bed_bath_table::MG,bed_bath_table,bed_bath_table,MG,MG,128.47,0.8345,3776.04,Escalate Demand Spike +15%: Protect Service Levels And Review Allocation.
+Demand Spike +15%,computers_accessories::SP,computers_accessories,computers_accessories,SP,SP,382.33,0.8273,8631.28,Escalate Demand Spike +15%: Protect Service Levels And Review Allocation.
+Demand Spike +15%,pet_shop::SP,pet_shop,pet_shop,SP,SP,200.25,0.8153,5611.71,Escalate Demand Spike +15%: Protect Service Levels And Review Allocation.
+Demand Spike +15%,auto::RJ,auto,auto,RJ,RJ,56.25,0.7863,1355.26,Escalate Demand Spike +15%: Protect Service Levels And Review Allocation.
+Demand Spike +15%,auto::MG,auto,auto,MG,MG,88.46,0.7325,2558.54,Escalate Demand Spike +15%: Protect Service Levels And Review Allocation.
+Demand Spike +15%,housewares::RJ,housewares,housewares,RJ,RJ,127.79,0.7383,2174.94,Escalate Demand Spike +15%: Protect Service Levels And Review Allocation.
+Demand Spike +15%,furniture_decor::SP,furniture_decor,furniture_decor,SP,SP,345.87,0.7233,6763.79,Escalate Demand Spike +15%: Protect Service Levels And Review Allocation.
+Demand Spike +15%,health_beauty::MG,health_beauty,health_beauty,MG,MG,176.52,0.7135,3899.18,Escalate Demand Spike +15%: Protect Service Levels And Review Allocation.
+Demand Spike +15%,baby::SP,baby,baby,SP,SP,193.34,0.6933,4230.84,Escalate Demand Spike +15%: Protect Service Levels And Review Allocation.
+Demand Spike +15%,watches_gifts::SP,watches_gifts,watches_gifts,SP,SP,266.89,0.6823,8652.96,Escalate Demand Spike +15%: Protect Service Levels And Review Allocation.
+Demand Spike +15%,stationery::SP,stationery,stationery,SP,SP,179.72,0.6703,3670.35,Escalate Demand Spike +15%: Protect Service Levels And Review Allocation.
+Demand Spike +15%,housewares::MG,housewares,housewares,MG,MG,110.35,0.6465,1731.09,Escalate Demand Spike +15%: Protect Service Levels And Review Allocation.
+Demand Spike +15%,fashion_bags_accessories::SP,fashion_bags_accessories,fashion_bags_accessories,SP,SP,93.97,0.6393,1267.99,Escalate Demand Spike +15%: Protect Service Levels And Review Allocation.
+Demand Spike +15%,perfumery::RJ,perfumery,perfumery,RJ,RJ,40.71,0.6473,1318.26,Escalate Demand Spike +15%: Protect Service Levels And Review Allocation.
+Demand Spike +15%,sports_leisure::SP,sports_leisure,sports_leisure,SP,SP,362.23,0.6233,6202.67,Escalate Demand Spike +15%: Protect Service Levels And Review Allocation.
+Demand Spike +15%,bed_bath_table::RJ,bed_bath_table,bed_bath_table,RJ,RJ,151.06,0.6353,2937.36,Escalate Demand Spike +15%: Protect Service Levels And Review Allocation.
+Demand Spike +15%,construction_tools_construction::SP,construction_tools_construction,construction_tools_construction,SP,SP,123.51,0.6163,1258.18,Monitor Demand Spike +15%: Rebalance Capacity Before Risk Converts To Service Loss.
+Demand Spike +15%,health_beauty::PR,health_beauty,health_beauty,PR,PR,52.9,0.6055,994.01,Monitor Demand Spike +15%: Rebalance Capacity Before Risk Converts To Service Loss.
+Demand Spike +15%,small_appliances::SP,small_appliances,small_appliances,SP,SP,27.61,0.6013,792.75,Monitor Demand Spike +15%: Rebalance Capacity Before Risk Converts To Service Loss.
+Demand Spike +15%,luggage_accessories::SP,luggage_accessories,luggage_accessories,SP,SP,43.95,0.5783,1045.76,Monitor Demand Spike +15%: Rebalance Capacity Before Risk Converts To Service Loss.
+Demand Spike +15%,housewares::SP,housewares,housewares,SP,SP,417.13,0.5653,5877.87,Monitor Demand Spike +15%: Rebalance Capacity Before Risk Converts To Service Loss.
+Demand Spike +15%,garden_tools::RJ,garden_tools,garden_tools,RJ,RJ,27.36,0.5773,680.95,Monitor Demand Spike +15%: Rebalance Capacity Before Risk Converts To Service Loss.
+Demand Spike +15%,furniture_decor::MG,furniture_decor,furniture_decor,MG,MG,69.45,0.5425,994.47,Monitor Demand Spike +15%: Rebalance Capacity Before Risk Converts To Service Loss.
+Demand Spike +15%,housewares::RS,housewares,housewares,RS,RS,53.7,0.5391,1130.52,Monitor Demand Spike +15%: Rebalance Capacity Before Risk Converts To Service Loss.
+Demand Spike +15%,computers_accessories::RJ,computers_accessories,computers_accessories,RJ,RJ,76.45,0.5443,1580.2,Monitor Demand Spike +15%: Rebalance Capacity Before Risk Converts To Service Loss.
+Demand Spike +15%,garden_tools::MG,garden_tools,garden_tools,MG,MG,32.35,0.5305,758.65,Monitor Demand Spike +15%: Rebalance Capacity Before Risk Converts To Service Loss.
+Demand Spike +15%,sports_leisure::RS,sports_leisure,sports_leisure,RS,RS,26.89,0.5231,448.43,Monitor Demand Spike +15%: Rebalance Capacity Before Risk Converts To Service Loss.
+Demand Spike +15%,bed_bath_table::SC,bed_bath_table,bed_bath_table,SC,SC,26.88,0.5265,439.61,Monitor Demand Spike +15%: Rebalance Capacity Before Risk Converts To Service Loss.
+Demand Spike +15%,home_construction::SP,home_construction,home_construction,SP,SP,30.12,0.5163,883.94,Monitor Demand Spike +15%: Rebalance Capacity Before Risk Converts To Service Loss.
+Demand Spike +15%,health_beauty::SP,health_beauty,health_beauty,SP,SP,434.55,0.5143,5867.35,Monitor Demand Spike +15%: Rebalance Capacity Before Risk Converts To Service Loss.
+Demand Spike +15%,furniture_decor::SC,furniture_decor,furniture_decor,SC,SC,26.71,0.5185,497.51,Monitor Demand Spike +15%: Rebalance Capacity Before Risk Converts To Service Loss.
+Demand Spike +15%,perfumery::MG,perfumery,perfumery,MG,MG,34.56,0.5065,713.33,Monitor Demand Spike +15%: Rebalance Capacity Before Risk Converts To Service Loss.
+Demand Spike +15%,cool_stuff::RJ,cool_stuff,cool_stuff,RJ,RJ,25.41,0.5043,800.48,Monitor Demand Spike +15%: Rebalance Capacity Before Risk Converts To Service Loss.
+Demand Spike +15%,bed_bath_table::SP,bed_bath_table,bed_bath_table,SP,SP,422.42,0.4843,4998.8,Monitor Demand Spike +15%: Rebalance Capacity Before Risk Converts To Service Loss.
+Demand Spike +15%,sports_leisure::SC,sports_leisure,sports_leisure,SC,SC,30.59,0.4885,751.24,Monitor Demand Spike +15%: Rebalance Capacity Before Risk Converts To Service Loss.
+Demand Spike +15%,health_beauty::SC,health_beauty,health_beauty,SC,SC,33.82,0.4645,551.45,Monitor Demand Spike +15%: Rebalance Capacity Before Risk Converts To Service Loss.
+Demand Spike +15%,computers_accessories::PR,computers_accessories,computers_accessories,PR,PR,31.04,0.4565,478.39,Monitor Demand Spike +15%: Rebalance Capacity Before Risk Converts To Service Loss.
+Demand Spike +15%,watches_gifts::RJ,watches_gifts,watches_gifts,RJ,RJ,63.77,0.4463,2051.58,Monitor Demand Spike +15%: Rebalance Capacity Before Risk Converts To Service Loss.
+Demand Spike +15%,electronics::RJ,electronics,electronics,RJ,RJ,26.78,0.4463,225.14,Monitor Demand Spike +15%: Rebalance Capacity Before Risk Converts To Service Loss.
+Demand Spike +15%,sports_leisure::MG,sports_leisure,sports_leisure,MG,MG,53.15,0.4325,1003.97,Monitor Demand Spike +15%: Rebalance Capacity Before Risk Converts To Service Loss.
+Demand Spike +15%,furniture_decor::PR,furniture_decor,furniture_decor,PR,PR,45.37,0.4235,789.98,Monitor Demand Spike +15%: Rebalance Capacity Before Risk Converts To Service Loss.
+Demand Spike +15%,bed_bath_table::PR,bed_bath_table,bed_bath_table,PR,PR,31.73,0.4235,513.77,Monitor Demand Spike +15%: Rebalance Capacity Before Risk Converts To Service Loss.
+Demand Spike +15%,toys::MG,toys,toys,MG,MG,26.19,0.4225,555.02,Monitor Demand Spike +15%: Rebalance Capacity Before Risk Converts To Service Loss.
+Demand Spike +15%,telephony::RJ,telephony,telephony,RJ,RJ,28.99,0.4333,190.23,Monitor Demand Spike +15%: Rebalance Capacity Before Risk Converts To Service Loss.
+Demand Spike +15%,telephony::MG,telephony,telephony,MG,MG,24.71,0.4205,152.6,Monitor Demand Spike +15%: Rebalance Capacity Before Risk Converts To Service Loss.
+Demand Spike +15%,musical_instruments::SP,musical_instruments,musical_instruments,SP,SP,25.71,0.4123,1218.71,Monitor Demand Spike +15%: Rebalance Capacity Before Risk Converts To Service Loss.
+Demand Spike +15%,baby::MG,baby,baby,MG,MG,29.18,0.4105,463.37,Monitor Demand Spike +15%: Rebalance Capacity Before Risk Converts To Service Loss.
+Demand Spike +15%,furniture_decor::RS,furniture_decor,furniture_decor,RS,RS,32.25,0.3991,431.08,Monitor Demand Spike +15%: Rebalance Capacity Before Risk Converts To Service Loss.
+Demand Spike +15%,health_beauty::BA,health_beauty,health_beauty,BA,BA,30.52,0.4103,653.37,Monitor Demand Spike +15%: Rebalance Capacity Before Risk Converts To Service Loss.
+Demand Spike +15%,computers_accessories::RS,computers_accessories,computers_accessories,RS,RS,26.22,0.3961,354.13,Monitor Demand Spike +15%: Rebalance Capacity Before Risk Converts To Service Loss.
+Demand Spike +15%,office_furniture::SP,office_furniture,office_furniture,SP,SP,29.23,0.3863,745.35,Monitor Demand Spike +15%: Rebalance Capacity Before Risk Converts To Service Loss.
+Demand Spike +15%,unknown::SP,unknown,unknown,SP,SP,28.55,0.3863,274.52,Monitor Demand Spike +15%: Rebalance Capacity Before Risk Converts To Service Loss.
+Demand Spike +15%,home_appliances::SP,home_appliances,home_appliances,SP,SP,41.71,0.3823,546.28,Monitor Demand Spike +15%: Rebalance Capacity Before Risk Converts To Service Loss.
+Demand Spike +15%,furniture_decor::RJ,furniture_decor,furniture_decor,RJ,RJ,49.73,0.3943,668.75,Monitor Demand Spike +15%: Rebalance Capacity Before Risk Converts To Service Loss.
+Demand Spike +15%,housewares::PR,housewares,housewares,PR,PR,38.06,0.3675,324.7,Maintain Demand Spike +15%: Current Exposure Is Manageable.
+Demand Spike +15%,computers_accessories::MG,computers_accessories,computers_accessories,MG,MG,58.82,0.3615,987.9,Maintain Demand Spike +15%: Current Exposure Is Manageable.
+Demand Spike +15%,sports_leisure::RJ,sports_leisure,sports_leisure,RJ,RJ,55.96,0.3693,811.88,Maintain Demand Spike +15%: Current Exposure Is Manageable.
+Demand Spike +15%,baby::RJ,baby,baby,RJ,RJ,29.58,0.3623,528.32,Maintain Demand Spike +15%: Current Exposure Is Manageable.
+Demand Spike +15%,bed_bath_table::RS,bed_bath_table,bed_bath_table,RS,RS,29.37,0.3531,479.91,Maintain Demand Spike +15%: Current Exposure Is Manageable.
+Demand Spike +15%,watches_gifts::PR,watches_gifts,watches_gifts,PR,PR,26.83,0.3455,887.11,Maintain Demand Spike +15%: Current Exposure Is Manageable.
+Demand Spike +15%,health_beauty::RS,health_beauty,health_beauty,RS,RS,34.63,0.3471,602.59,Maintain Demand Spike +15%: Current Exposure Is Manageable.
+Demand Spike +15%,watches_gifts::MG,watches_gifts,watches_gifts,MG,MG,37.52,0.3355,914.31,Maintain Demand Spike +15%: Current Exposure Is Manageable.
+Demand Spike +15%,sports_leisure::PR,sports_leisure,sports_leisure,PR,PR,28.52,0.3285,362.47,Maintain Demand Spike +15%: Current Exposure Is Manageable.
+Demand Spike +15%,garden_tools::SP,garden_tools,garden_tools,SP,SP,71.56,0.3183,804.75,Maintain Demand Spike +15%: Current Exposure Is Manageable.
+Demand Spike +15%,telephony::SP,telephony,telephony,SP,SP,120.39,0.3113,583.67,Maintain Demand Spike +15%: Current Exposure Is Manageable.
+Demand Spike +15%,electronics::SP,electronics,electronics,SP,SP,47.49,0.2753,294.23,Maintain Demand Spike +15%: Current Exposure Is Manageable.
+Freight Shock +20%,perfumery::SP,perfumery,perfumery,SP,SP,243.71,1.0,9441.24,Escalate Freight Shock +20%: Protect Service Levels And Review Allocation.
+Freight Shock +20%,cool_stuff::SP,cool_stuff,cool_stuff,SP,SP,129.76,1.0,8108.78,Escalate Freight Shock +20%: Protect Service Levels And Review Allocation.
+Freight Shock +20%,health_beauty::RJ,health_beauty,health_beauty,RJ,RJ,163.72,1.0,8353.16,Escalate Freight Shock +20%: Protect Service Levels And Review Allocation.
+Freight Shock +20%,food::SP,food,food,SP,SP,172.08,1.0,4524.5,Escalate Freight Shock +20%: Protect Service Levels And Review Allocation.
+Freight Shock +20%,toys::SP,toys,toys,SP,SP,185.46,1.0,7640.69,Escalate Freight Shock +20%: Protect Service Levels And Review Allocation.
+Freight Shock +20%,auto::SP,auto,auto,SP,SP,291.41,0.9623,11201.83,Escalate Freight Shock +20%: Protect Service Levels And Review Allocation.
+Freight Shock +20%,bed_bath_table::MG,bed_bath_table,bed_bath_table,MG,MG,111.71,0.8705,3940.21,Escalate Freight Shock +20%: Protect Service Levels And Review Allocation.
+Freight Shock +20%,computers_accessories::SP,computers_accessories,computers_accessories,SP,SP,332.46,0.8633,9006.55,Escalate Freight Shock +20%: Protect Service Levels And Review Allocation.
+Freight Shock +20%,pet_shop::SP,pet_shop,pet_shop,SP,SP,174.13,0.8513,5855.7,Escalate Freight Shock +20%: Protect Service Levels And Review Allocation.
+Freight Shock +20%,auto::RJ,auto,auto,RJ,RJ,48.91,0.8223,1414.19,Escalate Freight Shock +20%: Protect Service Levels And Review Allocation.
+Freight Shock +20%,auto::MG,auto,auto,MG,MG,76.92,0.7685,2669.78,Escalate Freight Shock +20%: Protect Service Levels And Review Allocation.
+Freight Shock +20%,housewares::RJ,housewares,housewares,RJ,RJ,111.12,0.7743,2269.5,Escalate Freight Shock +20%: Protect Service Levels And Review Allocation.
+Freight Shock +20%,furniture_decor::SP,furniture_decor,furniture_decor,SP,SP,300.76,0.7593,7057.87,Escalate Freight Shock +20%: Protect Service Levels And Review Allocation.
+Freight Shock +20%,health_beauty::MG,health_beauty,health_beauty,MG,MG,153.5,0.7495,4068.71,Escalate Freight Shock +20%: Protect Service Levels And Review Allocation.
+Freight Shock +20%,baby::SP,baby,baby,SP,SP,168.12,0.7293,4414.79,Escalate Freight Shock +20%: Protect Service Levels And Review Allocation.
+Freight Shock +20%,watches_gifts::SP,watches_gifts,watches_gifts,SP,SP,232.08,0.7183,9029.17,Escalate Freight Shock +20%: Protect Service Levels And Review Allocation.
+Freight Shock +20%,stationery::SP,stationery,stationery,SP,SP,156.28,0.7063,3829.93,Escalate Freight Shock +20%: Protect Service Levels And Review Allocation.
+Freight Shock +20%,housewares::MG,housewares,housewares,MG,MG,95.96,0.6825,1806.36,Escalate Freight Shock +20%: Protect Service Levels And Review Allocation.
+Freight Shock +20%,fashion_bags_accessories::SP,fashion_bags_accessories,fashion_bags_accessories,SP,SP,81.71,0.6753,1323.12,Escalate Freight Shock +20%: Protect Service Levels And Review Allocation.
+Freight Shock +20%,perfumery::RJ,perfumery,perfumery,RJ,RJ,35.4,0.6833,1375.57,Escalate Freight Shock +20%: Protect Service Levels And Review Allocation.
+Freight Shock +20%,sports_leisure::SP,sports_leisure,sports_leisure,SP,SP,314.98,0.6593,6472.36,Escalate Freight Shock +20%: Protect Service Levels And Review Allocation.
+Freight Shock +20%,bed_bath_table::RJ,bed_bath_table,bed_bath_table,RJ,RJ,131.36,0.6713,3065.08,Escalate Freight Shock +20%: Protect Service Levels And Review Allocation.
+Freight Shock +20%,construction_tools_construction::SP,construction_tools_construction,construction_tools_construction,SP,SP,107.4,0.6523,1312.88,Escalate Freight Shock +20%: Protect Service Levels And Review Allocation.
+Freight Shock +20%,health_beauty::PR,health_beauty,health_beauty,PR,PR,46.0,0.6415,1037.23,Escalate Freight Shock +20%: Protect Service Levels And Review Allocation.
+Freight Shock +20%,small_appliances::SP,small_appliances,small_appliances,SP,SP,24.01,0.6373,827.22,Escalate Freight Shock +20%: Protect Service Levels And Review Allocation.
+Freight Shock +20%,luggage_accessories::SP,luggage_accessories,luggage_accessories,SP,SP,38.22,0.6143,1091.23,Monitor Freight Shock +20%: Rebalance Capacity Before Risk Converts To Service Loss.
+Freight Shock +20%,housewares::SP,housewares,housewares,SP,SP,362.72,0.6013,6133.43,Monitor Freight Shock +20%: Rebalance Capacity Before Risk Converts To Service Loss.
+Freight Shock +20%,garden_tools::RJ,garden_tools,garden_tools,RJ,RJ,23.79,0.6133,710.56,Monitor Freight Shock +20%: Rebalance Capacity Before Risk Converts To Service Loss.
+Freight Shock +20%,furniture_decor::MG,furniture_decor,furniture_decor,MG,MG,60.39,0.5785,1037.71,Monitor Freight Shock +20%: Rebalance Capacity Before Risk Converts To Service Loss.
+Freight Shock +20%,housewares::RS,housewares,housewares,RS,RS,46.7,0.5751,1179.67,Monitor Freight Shock +20%: Rebalance Capacity Before Risk Converts To Service Loss.
+Freight Shock +20%,computers_accessories::RJ,computers_accessories,computers_accessories,RJ,RJ,66.48,0.5803,1648.91,Monitor Freight Shock +20%: Rebalance Capacity Before Risk Converts To Service Loss.
+Freight Shock +20%,garden_tools::MG,garden_tools,garden_tools,MG,MG,28.13,0.5665,791.64,Monitor Freight Shock +20%: Rebalance Capacity Before Risk Converts To Service Loss.
+Freight Shock +20%,sports_leisure::RS,sports_leisure,sports_leisure,RS,RS,23.38,0.5591,467.93,Monitor Freight Shock +20%: Rebalance Capacity Before Risk Converts To Service Loss.
+Freight Shock +20%,bed_bath_table::SC,bed_bath_table,bed_bath_table,SC,SC,23.37,0.5625,458.72,Monitor Freight Shock +20%: Rebalance Capacity Before Risk Converts To Service Loss.
+Freight Shock +20%,home_construction::SP,home_construction,home_construction,SP,SP,26.19,0.5523,922.37,Monitor Freight Shock +20%: Rebalance Capacity Before Risk Converts To Service Loss.
+Freight Shock +20%,health_beauty::SP,health_beauty,health_beauty,SP,SP,377.87,0.5503,6122.45,Monitor Freight Shock +20%: Rebalance Capacity Before Risk Converts To Service Loss.
+Freight Shock +20%,furniture_decor::SC,furniture_decor,furniture_decor,SC,SC,23.23,0.5545,519.14,Monitor Freight Shock +20%: Rebalance Capacity Before Risk Converts To Service Loss.
+Freight Shock +20%,perfumery::MG,perfumery,perfumery,MG,MG,30.05,0.5425,744.35,Monitor Freight Shock +20%: Rebalance Capacity Before Risk Converts To Service Loss.
+Freight Shock +20%,cool_stuff::RJ,cool_stuff,cool_stuff,RJ,RJ,22.1,0.5403,835.28,Monitor Freight Shock +20%: Rebalance Capacity Before Risk Converts To Service Loss.
+Freight Shock +20%,bed_bath_table::SP,bed_bath_table,bed_bath_table,SP,SP,367.32,0.5203,5216.14,Monitor Freight Shock +20%: Rebalance Capacity Before Risk Converts To Service Loss.
+Freight Shock +20%,sports_leisure::SC,sports_leisure,sports_leisure,SC,SC,26.6,0.5245,783.9,Monitor Freight Shock +20%: Rebalance Capacity Before Risk Converts To Service Loss.
+Freight Shock +20%,health_beauty::SC,health_beauty,health_beauty,SC,SC,29.41,0.5005,575.42,Monitor Freight Shock +20%: Rebalance Capacity Before Risk Converts To Service Loss.
+Freight Shock +20%,computers_accessories::PR,computers_accessories,computers_accessories,PR,PR,26.99,0.4925,499.19,Monitor Freight Shock +20%: Rebalance Capacity Before Risk Converts To Service Loss.
+Freight Shock +20%,watches_gifts::RJ,watches_gifts,watches_gifts,RJ,RJ,55.45,0.4823,2140.78,Monitor Freight Shock +20%: Rebalance Capacity Before Risk Converts To Service Loss.
+Freight Shock +20%,electronics::RJ,electronics,electronics,RJ,RJ,23.29,0.4823,234.92,Monitor Freight Shock +20%: Rebalance Capacity Before Risk Converts To Service Loss.
+Freight Shock +20%,sports_leisure::MG,sports_leisure,sports_leisure,MG,MG,46.22,0.4685,1047.62,Monitor Freight Shock +20%: Rebalance Capacity Before Risk Converts To Service Loss.
+Freight Shock +20%,furniture_decor::PR,furniture_decor,furniture_decor,PR,PR,39.45,0.4595,824.33,Monitor Freight Shock +20%: Rebalance Capacity Before Risk Converts To Service Loss.
+Freight Shock +20%,bed_bath_table::PR,bed_bath_table,bed_bath_table,PR,PR,27.59,0.4595,536.11,Monitor Freight Shock +20%: Rebalance Capacity Before Risk Converts To Service Loss.
+Freight Shock +20%,toys::MG,toys,toys,MG,MG,22.77,0.4585,579.16,Monitor Freight Shock +20%: Rebalance Capacity Before Risk Converts To Service Loss.
+Freight Shock +20%,telephony::RJ,telephony,telephony,RJ,RJ,25.21,0.4693,198.5,Monitor Freight Shock +20%: Rebalance Capacity Before Risk Converts To Service Loss.
+Freight Shock +20%,telephony::MG,telephony,telephony,MG,MG,21.49,0.4565,159.24,Monitor Freight Shock +20%: Rebalance Capacity Before Risk Converts To Service Loss.
+Freight Shock +20%,musical_instruments::SP,musical_instruments,musical_instruments,SP,SP,22.36,0.4483,1271.7,Monitor Freight Shock +20%: Rebalance Capacity Before Risk Converts To Service Loss.
+Freight Shock +20%,baby::MG,baby,baby,MG,MG,25.37,0.4465,483.52,Monitor Freight Shock +20%: Rebalance Capacity Before Risk Converts To Service Loss.
+Freight Shock +20%,furniture_decor::RS,furniture_decor,furniture_decor,RS,RS,28.04,0.4351,449.82,Monitor Freight Shock +20%: Rebalance Capacity Before Risk Converts To Service Loss.
+Freight Shock +20%,health_beauty::BA,health_beauty,health_beauty,BA,BA,26.54,0.4463,681.78,Monitor Freight Shock +20%: Rebalance Capacity Before Risk Converts To Service Loss.
+Freight Shock +20%,computers_accessories::RS,computers_accessories,computers_accessories,RS,RS,22.8,0.4321,369.53,Monitor Freight Shock +20%: Rebalance Capacity Before Risk Converts To Service Loss.
+Freight Shock +20%,office_furniture::SP,office_furniture,office_furniture,SP,SP,25.42,0.4223,777.76,Monitor Freight Shock +20%: Rebalance Capacity Before Risk Converts To Service Loss.
+Freight Shock +20%,unknown::SP,unknown,unknown,SP,SP,24.83,0.4223,286.45,Monitor Freight Shock +20%: Rebalance Capacity Before Risk Converts To Service Loss.
+Freight Shock +20%,home_appliances::SP,home_appliances,home_appliances,SP,SP,36.27,0.4183,570.04,Monitor Freight Shock +20%: Rebalance Capacity Before Risk Converts To Service Loss.
+Freight Shock +20%,furniture_decor::RJ,furniture_decor,furniture_decor,RJ,RJ,43.24,0.4303,697.82,Monitor Freight Shock +20%: Rebalance Capacity Before Risk Converts To Service Loss.
+Freight Shock +20%,housewares::PR,housewares,housewares,PR,PR,33.1,0.4035,338.82,Monitor Freight Shock +20%: Rebalance Capacity Before Risk Converts To Service Loss.
+Freight Shock +20%,computers_accessories::MG,computers_accessories,computers_accessories,MG,MG,51.15,0.3975,1030.85,Monitor Freight Shock +20%: Rebalance Capacity Before Risk Converts To Service Loss.
+Freight Shock +20%,sports_leisure::RJ,sports_leisure,sports_leisure,RJ,RJ,48.66,0.4053,847.18,Monitor Freight Shock +20%: Rebalance Capacity Before Risk Converts To Service Loss.
+Freight Shock +20%,baby::RJ,baby,baby,RJ,RJ,25.72,0.3983,551.29,Monitor Freight Shock +20%: Rebalance Capacity Before Risk Converts To Service Loss.
+Freight Shock +20%,bed_bath_table::RS,bed_bath_table,bed_bath_table,RS,RS,25.54,0.3891,500.77,Monitor Freight Shock +20%: Rebalance Capacity Before Risk Converts To Service Loss.
+Freight Shock +20%,watches_gifts::PR,watches_gifts,watches_gifts,PR,PR,23.33,0.3815,925.68,Monitor Freight Shock +20%: Rebalance Capacity Before Risk Converts To Service Loss.
+Freight Shock +20%,health_beauty::RS,health_beauty,health_beauty,RS,RS,30.11,0.3831,628.79,Monitor Freight Shock +20%: Rebalance Capacity Before Risk Converts To Service Loss.
+Freight Shock +20%,watches_gifts::MG,watches_gifts,watches_gifts,MG,MG,32.63,0.3715,954.06,Maintain Freight Shock +20%: Current Exposure Is Manageable.
+Freight Shock +20%,sports_leisure::PR,sports_leisure,sports_leisure,PR,PR,24.8,0.3645,378.23,Maintain Freight Shock +20%: Current Exposure Is Manageable.
+Freight Shock +20%,garden_tools::SP,garden_tools,garden_tools,SP,SP,62.23,0.3543,839.74,Maintain Freight Shock +20%: Current Exposure Is Manageable.
+Freight Shock +20%,telephony::SP,telephony,telephony,SP,SP,104.69,0.3473,609.05,Maintain Freight Shock +20%: Current Exposure Is Manageable.
+Freight Shock +20%,electronics::SP,electronics,electronics,SP,SP,41.3,0.3113,307.02,Maintain Freight Shock +20%: Current Exposure Is Manageable.
+Delivery Slowdown +10%,perfumery::SP,perfumery,perfumery,SP,SP,243.71,1.0,8654.47,Escalate Delivery Slowdown +10%: Protect Service Levels And Review Allocation.
+Delivery Slowdown +10%,cool_stuff::SP,cool_stuff,cool_stuff,SP,SP,129.76,1.0,7433.05,Escalate Delivery Slowdown +10%: Protect Service Levels And Review Allocation.
+Delivery Slowdown +10%,health_beauty::RJ,health_beauty,health_beauty,RJ,RJ,163.72,1.0,7657.07,Escalate Delivery Slowdown +10%: Protect Service Levels And Review Allocation.
+Delivery Slowdown +10%,food::SP,food,food,SP,SP,172.08,1.0,4147.46,Escalate Delivery Slowdown +10%: Protect Service Levels And Review Allocation.
+Delivery Slowdown +10%,toys::SP,toys,toys,SP,SP,185.46,1.0,7003.96,Escalate Delivery Slowdown +10%: Protect Service Levels And Review Allocation.
+Delivery Slowdown +10%,auto::SP,auto,auto,SP,SP,291.41,1.0,10268.35,Escalate Delivery Slowdown +10%: Protect Service Levels And Review Allocation.
+Delivery Slowdown +10%,bed_bath_table::MG,bed_bath_table,bed_bath_table,MG,MG,111.71,0.9151,3611.86,Escalate Delivery Slowdown +10%: Protect Service Levels And Review Allocation.
+Delivery Slowdown +10%,computers_accessories::SP,computers_accessories,computers_accessories,SP,SP,332.46,0.9074,8256.01,Escalate Delivery Slowdown +10%: Protect Service Levels And Review Allocation.
+Delivery Slowdown +10%,pet_shop::SP,pet_shop,pet_shop,SP,SP,174.13,0.8942,5367.73,Escalate Delivery Slowdown +10%: Protect Service Levels And Review Allocation.
+Delivery Slowdown +10%,auto::RJ,auto,auto,RJ,RJ,48.91,0.8609,1296.34,Escalate Delivery Slowdown +10%: Protect Service Levels And Review Allocation.
+Delivery Slowdown +10%,auto::MG,auto,auto,MG,MG,76.92,0.8029,2447.3,Escalate Delivery Slowdown +10%: Protect Service Levels And Review Allocation.
+Delivery Slowdown +10%,housewares::RJ,housewares,housewares,RJ,RJ,111.12,0.8081,2080.38,Escalate Delivery Slowdown +10%: Protect Service Levels And Review Allocation.
+Delivery Slowdown +10%,furniture_decor::SP,furniture_decor,furniture_decor,SP,SP,300.76,0.793,6469.72,Escalate Delivery Slowdown +10%: Protect Service Levels And Review Allocation.
+Delivery Slowdown +10%,health_beauty::MG,health_beauty,health_beauty,MG,MG,153.5,0.782,3729.65,Escalate Delivery Slowdown +10%: Protect Service Levels And Review Allocation.
+Delivery Slowdown +10%,baby::SP,baby,baby,SP,SP,168.12,0.76,4046.89,Escalate Delivery Slowdown +10%: Protect Service Levels And Review Allocation.
+Delivery Slowdown +10%,watches_gifts::SP,watches_gifts,watches_gifts,SP,SP,232.08,0.7479,8276.74,Escalate Delivery Slowdown +10%: Protect Service Levels And Review Allocation.
+Delivery Slowdown +10%,stationery::SP,stationery,stationery,SP,SP,156.28,0.7347,3510.77,Escalate Delivery Slowdown +10%: Protect Service Levels And Review Allocation.
+Delivery Slowdown +10%,housewares::MG,housewares,housewares,MG,MG,95.96,0.7083,1655.83,Escalate Delivery Slowdown +10%: Protect Service Levels And Review Allocation.
+Delivery Slowdown +10%,fashion_bags_accessories::SP,fashion_bags_accessories,fashion_bags_accessories,SP,SP,81.71,0.7006,1212.86,Escalate Delivery Slowdown +10%: Protect Service Levels And Review Allocation.
+Delivery Slowdown +10%,perfumery::RJ,perfumery,perfumery,RJ,RJ,35.4,0.708,1260.94,Escalate Delivery Slowdown +10%: Protect Service Levels And Review Allocation.
+Delivery Slowdown +10%,sports_leisure::SP,sports_leisure,sports_leisure,SP,SP,314.98,0.683,5932.99,Escalate Delivery Slowdown +10%: Protect Service Levels And Review Allocation.
+Delivery Slowdown +10%,bed_bath_table::RJ,bed_bath_table,bed_bath_table,RJ,RJ,131.36,0.6948,2809.65,Escalate Delivery Slowdown +10%: Protect Service Levels And Review Allocation.
+Delivery Slowdown +10%,construction_tools_construction::SP,construction_tools_construction,construction_tools_construction,SP,SP,107.4,0.6753,1203.48,Escalate Delivery Slowdown +10%: Protect Service Levels And Review Allocation.
+Delivery Slowdown +10%,health_beauty::PR,health_beauty,health_beauty,PR,PR,46.0,0.6633,950.8,Escalate Delivery Slowdown +10%: Protect Service Levels And Review Allocation.
+Delivery Slowdown +10%,small_appliances::SP,small_appliances,small_appliances,SP,SP,24.01,0.6588,758.29,Escalate Delivery Slowdown +10%: Protect Service Levels And Review Allocation.
+Delivery Slowdown +10%,luggage_accessories::SP,luggage_accessories,luggage_accessories,SP,SP,38.22,0.6335,1000.3,Escalate Delivery Slowdown +10%: Protect Service Levels And Review Allocation.
+Delivery Slowdown +10%,housewares::SP,housewares,housewares,SP,SP,362.72,0.6192,5622.31,Monitor Delivery Slowdown +10%: Rebalance Capacity Before Risk Converts To Service Loss.
+Delivery Slowdown +10%,garden_tools::RJ,garden_tools,garden_tools,RJ,RJ,23.79,0.631,651.34,Escalate Delivery Slowdown +10%: Protect Service Levels And Review Allocation.
+Delivery Slowdown +10%,furniture_decor::MG,furniture_decor,furniture_decor,MG,MG,60.39,0.5939,951.24,Monitor Delivery Slowdown +10%: Rebalance Capacity Before Risk Converts To Service Loss.
+Delivery Slowdown +10%,housewares::RS,housewares,housewares,RS,RS,46.7,0.5899,1081.37,Monitor Delivery Slowdown +10%: Rebalance Capacity Before Risk Converts To Service Loss.
+Delivery Slowdown +10%,computers_accessories::RJ,computers_accessories,computers_accessories,RJ,RJ,66.48,0.5947,1511.5,Monitor Delivery Slowdown +10%: Rebalance Capacity Before Risk Converts To Service Loss.
+Delivery Slowdown +10%,garden_tools::MG,garden_tools,garden_tools,MG,MG,28.13,0.5807,725.67,Monitor Delivery Slowdown +10%: Rebalance Capacity Before Risk Converts To Service Loss.
+Delivery Slowdown +10%,sports_leisure::RS,sports_leisure,sports_leisure,RS,RS,23.38,0.5723,428.93,Monitor Delivery Slowdown +10%: Rebalance Capacity Before Risk Converts To Service Loss.
+Delivery Slowdown +10%,bed_bath_table::SC,bed_bath_table,bed_bath_table,SC,SC,23.37,0.5757,420.5,Monitor Delivery Slowdown +10%: Rebalance Capacity Before Risk Converts To Service Loss.
+Delivery Slowdown +10%,home_construction::SP,home_construction,home_construction,SP,SP,26.19,0.5653,845.5,Monitor Delivery Slowdown +10%: Rebalance Capacity Before Risk Converts To Service Loss.
+Delivery Slowdown +10%,health_beauty::SP,health_beauty,health_beauty,SP,SP,377.87,0.5631,5612.24,Monitor Delivery Slowdown +10%: Rebalance Capacity Before Risk Converts To Service Loss.
+Delivery Slowdown +10%,furniture_decor::SC,furniture_decor,furniture_decor,SC,SC,23.23,0.5669,475.88,Monitor Delivery Slowdown +10%: Rebalance Capacity Before Risk Converts To Service Loss.
+Delivery Slowdown +10%,perfumery::MG,perfumery,perfumery,MG,MG,30.05,0.5543,682.32,Monitor Delivery Slowdown +10%: Rebalance Capacity Before Risk Converts To Service Loss.
+Delivery Slowdown +10%,cool_stuff::RJ,cool_stuff,cool_stuff,RJ,RJ,22.1,0.5507,765.68,Monitor Delivery Slowdown +10%: Rebalance Capacity Before Risk Converts To Service Loss.
+Delivery Slowdown +10%,bed_bath_table::SP,bed_bath_table,bed_bath_table,SP,SP,367.32,0.5301,4781.46,Monitor Delivery Slowdown +10%: Rebalance Capacity Before Risk Converts To Service Loss.
+Delivery Slowdown +10%,sports_leisure::SC,sports_leisure,sports_leisure,SC,SC,26.6,0.5339,718.58,Monitor Delivery Slowdown +10%: Rebalance Capacity Before Risk Converts To Service Loss.
+Delivery Slowdown +10%,health_beauty::SC,health_beauty,health_beauty,SC,SC,29.41,0.5075,527.47,Monitor Delivery Slowdown +10%: Rebalance Capacity Before Risk Converts To Service Loss.
+Delivery Slowdown +10%,computers_accessories::PR,computers_accessories,computers_accessories,PR,PR,26.99,0.4994,457.59,Monitor Delivery Slowdown +10%: Rebalance Capacity Before Risk Converts To Service Loss.
+Delivery Slowdown +10%,watches_gifts::RJ,watches_gifts,watches_gifts,RJ,RJ,55.45,0.4869,1962.38,Monitor Delivery Slowdown +10%: Rebalance Capacity Before Risk Converts To Service Loss.
+Delivery Slowdown +10%,electronics::RJ,electronics,electronics,RJ,RJ,23.29,0.4869,215.35,Monitor Delivery Slowdown +10%: Rebalance Capacity Before Risk Converts To Service Loss.
+Delivery Slowdown +10%,sports_leisure::MG,sports_leisure,sports_leisure,MG,MG,46.22,0.4729,960.32,Monitor Delivery Slowdown +10%: Rebalance Capacity Before Risk Converts To Service Loss.
+Delivery Slowdown +10%,furniture_decor::PR,furniture_decor,furniture_decor,PR,PR,39.45,0.4631,755.63,Monitor Delivery Slowdown +10%: Rebalance Capacity Before Risk Converts To Service Loss.
+Delivery Slowdown +10%,bed_bath_table::PR,bed_bath_table,bed_bath_table,PR,PR,27.59,0.4631,491.44,Monitor Delivery Slowdown +10%: Rebalance Capacity Before Risk Converts To Service Loss.
+Delivery Slowdown +10%,toys::MG,toys,toys,MG,MG,22.77,0.4619,530.89,Monitor Delivery Slowdown +10%: Rebalance Capacity Before Risk Converts To Service Loss.
+Delivery Slowdown +10%,telephony::RJ,telephony,telephony,RJ,RJ,25.21,0.4726,181.96,Monitor Delivery Slowdown +10%: Rebalance Capacity Before Risk Converts To Service Loss.
+Delivery Slowdown +10%,telephony::MG,telephony,telephony,MG,MG,21.49,0.4597,145.97,Monitor Delivery Slowdown +10%: Rebalance Capacity Before Risk Converts To Service Loss.
+Delivery Slowdown +10%,musical_instruments::SP,musical_instruments,musical_instruments,SP,SP,22.36,0.4509,1165.73,Monitor Delivery Slowdown +10%: Rebalance Capacity Before Risk Converts To Service Loss.
+Delivery Slowdown +10%,baby::MG,baby,baby,MG,MG,25.37,0.4487,443.22,Monitor Delivery Slowdown +10%: Rebalance Capacity Before Risk Converts To Service Loss.
+Delivery Slowdown +10%,furniture_decor::RS,furniture_decor,furniture_decor,RS,RS,28.04,0.4359,412.34,Monitor Delivery Slowdown +10%: Rebalance Capacity Before Risk Converts To Service Loss.
+Delivery Slowdown +10%,health_beauty::BA,health_beauty,health_beauty,BA,BA,26.54,0.4468,624.97,Monitor Delivery Slowdown +10%: Rebalance Capacity Before Risk Converts To Service Loss.
+Delivery Slowdown +10%,computers_accessories::RS,computers_accessories,computers_accessories,RS,RS,22.8,0.4326,338.73,Monitor Delivery Slowdown +10%: Rebalance Capacity Before Risk Converts To Service Loss.
+Delivery Slowdown +10%,office_furniture::SP,office_furniture,office_furniture,SP,SP,25.42,0.4223,712.94,Monitor Delivery Slowdown +10%: Rebalance Capacity Before Risk Converts To Service Loss.
+Delivery Slowdown +10%,unknown::SP,unknown,unknown,SP,SP,24.83,0.4223,262.58,Monitor Delivery Slowdown +10%: Rebalance Capacity Before Risk Converts To Service Loss.
+Delivery Slowdown +10%,home_appliances::SP,home_appliances,home_appliances,SP,SP,36.27,0.4179,522.53,Monitor Delivery Slowdown +10%: Rebalance Capacity Before Risk Converts To Service Loss.
+Delivery Slowdown +10%,furniture_decor::RJ,furniture_decor,furniture_decor,RJ,RJ,43.24,0.4297,639.67,Monitor Delivery Slowdown +10%: Rebalance Capacity Before Risk Converts To Service Loss.
+Delivery Slowdown +10%,housewares::PR,housewares,housewares,PR,PR,33.1,0.4015,310.59,Monitor Delivery Slowdown +10%: Rebalance Capacity Before Risk Converts To Service Loss.
+Delivery Slowdown +10%,computers_accessories::MG,computers_accessories,computers_accessories,MG,MG,51.15,0.3948,944.94,Monitor Delivery Slowdown +10%: Rebalance Capacity Before Risk Converts To Service Loss.
+Delivery Slowdown +10%,sports_leisure::RJ,sports_leisure,sports_leisure,RJ,RJ,48.66,0.4022,776.58,Monitor Delivery Slowdown +10%: Rebalance Capacity Before Risk Converts To Service Loss.
+Delivery Slowdown +10%,baby::RJ,baby,baby,RJ,RJ,25.72,0.3945,505.35,Monitor Delivery Slowdown +10%: Rebalance Capacity Before Risk Converts To Service Loss.
+Delivery Slowdown +10%,bed_bath_table::RS,bed_bath_table,bed_bath_table,RS,RS,25.54,0.3853,459.04,Monitor Delivery Slowdown +10%: Rebalance Capacity Before Risk Converts To Service Loss.
+Delivery Slowdown +10%,watches_gifts::PR,watches_gifts,watches_gifts,PR,PR,23.33,0.3773,848.54,Maintain Delivery Slowdown +10%: Current Exposure Is Manageable.
+Delivery Slowdown +10%,health_beauty::RS,health_beauty,health_beauty,RS,RS,30.11,0.3787,576.39,Maintain Delivery Slowdown +10%: Current Exposure Is Manageable.
+Delivery Slowdown +10%,watches_gifts::MG,watches_gifts,watches_gifts,MG,MG,32.63,0.3662,874.56,Maintain Delivery Slowdown +10%: Current Exposure Is Manageable.
+Delivery Slowdown +10%,sports_leisure::PR,sports_leisure,sports_leisure,PR,PR,24.8,0.3586,346.71,Maintain Delivery Slowdown +10%: Current Exposure Is Manageable.
+Delivery Slowdown +10%,garden_tools::SP,garden_tools,garden_tools,SP,SP,62.23,0.3475,769.76,Maintain Delivery Slowdown +10%: Current Exposure Is Manageable.
+Delivery Slowdown +10%,telephony::SP,telephony,telephony,SP,SP,104.69,0.3398,558.29,Maintain Delivery Slowdown +10%: Current Exposure Is Manageable.
+Delivery Slowdown +10%,electronics::SP,electronics,electronics,SP,SP,41.3,0.3002,281.44,Maintain Delivery Slowdown +10%: Current Exposure Is Manageable.
+Combined Disruption,perfumery::SP,perfumery,perfumery,SP,SP,280.27,1.0,11943.17,Escalate Combined Disruption: Protect Service Levels And Review Allocation.
+Combined Disruption,cool_stuff::SP,cool_stuff,cool_stuff,SP,SP,149.22,1.0,10257.61,Escalate Combined Disruption: Protect Service Levels And Review Allocation.
+Combined Disruption,health_beauty::RJ,health_beauty,health_beauty,RJ,RJ,188.28,1.0,10566.75,Escalate Combined Disruption: Protect Service Levels And Review Allocation.
+Combined Disruption,food::SP,food,food,SP,SP,197.89,1.0,5723.5,Escalate Combined Disruption: Protect Service Levels And Review Allocation.
+Combined Disruption,toys::SP,toys,toys,SP,SP,213.28,1.0,9665.47,Escalate Combined Disruption: Protect Service Levels And Review Allocation.
+Combined Disruption,auto::SP,auto,auto,SP,SP,335.12,1.0,14170.32,Escalate Combined Disruption: Protect Service Levels And Review Allocation.
+Combined Disruption,bed_bath_table::MG,bed_bath_table,bed_bath_table,MG,MG,128.47,0.9511,4984.37,Escalate Combined Disruption: Protect Service Levels And Review Allocation.
+Combined Disruption,computers_accessories::SP,computers_accessories,computers_accessories,SP,SP,382.33,0.9434,11393.29,Escalate Combined Disruption: Protect Service Levels And Review Allocation.
+Combined Disruption,pet_shop::SP,pet_shop,pet_shop,SP,SP,200.25,0.9302,7407.46,Escalate Combined Disruption: Protect Service Levels And Review Allocation.
+Combined Disruption,auto::RJ,auto,auto,RJ,RJ,56.25,0.8969,1788.95,Escalate Combined Disruption: Protect Service Levels And Review Allocation.
+Combined Disruption,auto::MG,auto,auto,MG,MG,88.46,0.8389,3377.28,Escalate Combined Disruption: Protect Service Levels And Review Allocation.
+Combined Disruption,housewares::RJ,housewares,housewares,RJ,RJ,127.79,0.8441,2870.92,Escalate Combined Disruption: Protect Service Levels And Review Allocation.
+Combined Disruption,furniture_decor::SP,furniture_decor,furniture_decor,SP,SP,345.87,0.829,8928.21,Escalate Combined Disruption: Protect Service Levels And Review Allocation.
+Combined Disruption,health_beauty::MG,health_beauty,health_beauty,MG,MG,176.52,0.818,5146.92,Escalate Combined Disruption: Protect Service Levels And Review Allocation.
+Combined Disruption,baby::SP,baby,baby,SP,SP,193.34,0.796,5584.71,Escalate Combined Disruption: Protect Service Levels And Review Allocation.
+Combined Disruption,watches_gifts::SP,watches_gifts,watches_gifts,SP,SP,266.89,0.7839,11421.9,Escalate Combined Disruption: Protect Service Levels And Review Allocation.
+Combined Disruption,stationery::SP,stationery,stationery,SP,SP,179.72,0.7707,4844.86,Escalate Combined Disruption: Protect Service Levels And Review Allocation.
+Combined Disruption,housewares::MG,housewares,housewares,MG,MG,110.35,0.7443,2285.05,Escalate Combined Disruption: Protect Service Levels And Review Allocation.
+Combined Disruption,fashion_bags_accessories::SP,fashion_bags_accessories,fashion_bags_accessories,SP,SP,93.97,0.7366,1673.75,Escalate Combined Disruption: Protect Service Levels And Review Allocation.
+Combined Disruption,perfumery::RJ,perfumery,perfumery,RJ,RJ,40.71,0.744,1740.1,Escalate Combined Disruption: Protect Service Levels And Review Allocation.
+Combined Disruption,sports_leisure::SP,sports_leisure,sports_leisure,SP,SP,362.23,0.719,8187.53,Escalate Combined Disruption: Protect Service Levels And Review Allocation.
+Combined Disruption,bed_bath_table::RJ,bed_bath_table,bed_bath_table,RJ,RJ,151.06,0.7308,3877.32,Escalate Combined Disruption: Protect Service Levels And Review Allocation.
+Combined Disruption,construction_tools_construction::SP,construction_tools_construction,construction_tools_construction,SP,SP,123.51,0.7113,1660.8,Escalate Combined Disruption: Protect Service Levels And Review Allocation.
+Combined Disruption,health_beauty::PR,health_beauty,health_beauty,PR,PR,52.9,0.6993,1312.1,Escalate Combined Disruption: Protect Service Levels And Review Allocation.
+Combined Disruption,small_appliances::SP,small_appliances,small_appliances,SP,SP,27.61,0.6948,1046.43,Escalate Combined Disruption: Protect Service Levels And Review Allocation.
+Combined Disruption,luggage_accessories::SP,luggage_accessories,luggage_accessories,SP,SP,43.95,0.6695,1380.41,Escalate Combined Disruption: Protect Service Levels And Review Allocation.
+Combined Disruption,housewares::SP,housewares,housewares,SP,SP,417.13,0.6552,7758.79,Escalate Combined Disruption: Protect Service Levels And Review Allocation.
+Combined Disruption,garden_tools::RJ,garden_tools,garden_tools,RJ,RJ,27.36,0.667,898.85,Escalate Combined Disruption: Protect Service Levels And Review Allocation.
+Combined Disruption,furniture_decor::MG,furniture_decor,furniture_decor,MG,MG,69.45,0.6299,1312.71,Escalate Combined Disruption: Protect Service Levels And Review Allocation.
+Combined Disruption,housewares::RS,housewares,housewares,RS,RS,53.7,0.6259,1492.29,Escalate Combined Disruption: Protect Service Levels And Review Allocation.
+Combined Disruption,computers_accessories::RJ,computers_accessories,computers_accessories,RJ,RJ,76.45,0.6307,2085.87,Escalate Combined Disruption: Protect Service Levels And Review Allocation.
+Combined Disruption,garden_tools::MG,garden_tools,garden_tools,MG,MG,32.35,0.6167,1001.42,Monitor Combined Disruption: Rebalance Capacity Before Risk Converts To Service Loss.
+Combined Disruption,sports_leisure::RS,sports_leisure,sports_leisure,RS,RS,26.89,0.6083,591.93,Monitor Combined Disruption: Rebalance Capacity Before Risk Converts To Service Loss.
+Combined Disruption,bed_bath_table::SC,bed_bath_table,bed_bath_table,SC,SC,26.88,0.6117,580.29,Monitor Combined Disruption: Rebalance Capacity Before Risk Converts To Service Loss.
+Combined Disruption,home_construction::SP,home_construction,home_construction,SP,SP,30.12,0.6013,1166.8,Monitor Combined Disruption: Rebalance Capacity Before Risk Converts To Service Loss.
+Combined Disruption,health_beauty::SP,health_beauty,health_beauty,SP,SP,434.55,0.5991,7744.9,Monitor Combined Disruption: Rebalance Capacity Before Risk Converts To Service Loss.
+Combined Disruption,furniture_decor::SC,furniture_decor,furniture_decor,SC,SC,26.71,0.6029,656.72,Monitor Combined Disruption: Rebalance Capacity Before Risk Converts To Service Loss.
+Combined Disruption,perfumery::MG,perfumery,perfumery,MG,MG,34.56,0.5903,941.6,Monitor Combined Disruption: Rebalance Capacity Before Risk Converts To Service Loss.
+Combined Disruption,cool_stuff::RJ,cool_stuff,cool_stuff,RJ,RJ,25.41,0.5867,1056.63,Monitor Combined Disruption: Rebalance Capacity Before Risk Converts To Service Loss.
+Combined Disruption,bed_bath_table::SP,bed_bath_table,bed_bath_table,SP,SP,422.42,0.5661,6598.41,Monitor Combined Disruption: Rebalance Capacity Before Risk Converts To Service Loss.
+Combined Disruption,sports_leisure::SC,sports_leisure,sports_leisure,SC,SC,30.59,0.5699,991.63,Monitor Combined Disruption: Rebalance Capacity Before Risk Converts To Service Loss.
+Combined Disruption,health_beauty::SC,health_beauty,health_beauty,SC,SC,33.82,0.5435,727.91,Monitor Combined Disruption: Rebalance Capacity Before Risk Converts To Service Loss.
+Combined Disruption,computers_accessories::PR,computers_accessories,computers_accessories,PR,PR,31.04,0.5354,631.47,Monitor Combined Disruption: Rebalance Capacity Before Risk Converts To Service Loss.
+Combined Disruption,watches_gifts::RJ,watches_gifts,watches_gifts,RJ,RJ,63.77,0.5229,2708.08,Monitor Combined Disruption: Rebalance Capacity Before Risk Converts To Service Loss.
+Combined Disruption,electronics::RJ,electronics,electronics,RJ,RJ,26.78,0.5229,297.18,Monitor Combined Disruption: Rebalance Capacity Before Risk Converts To Service Loss.
+Combined Disruption,sports_leisure::MG,sports_leisure,sports_leisure,MG,MG,53.15,0.5089,1325.24,Monitor Combined Disruption: Rebalance Capacity Before Risk Converts To Service Loss.
+Combined Disruption,furniture_decor::PR,furniture_decor,furniture_decor,PR,PR,45.37,0.4991,1042.77,Monitor Combined Disruption: Rebalance Capacity Before Risk Converts To Service Loss.
+Combined Disruption,bed_bath_table::PR,bed_bath_table,bed_bath_table,PR,PR,31.73,0.4991,678.18,Monitor Combined Disruption: Rebalance Capacity Before Risk Converts To Service Loss.
+Combined Disruption,toys::MG,toys,toys,MG,MG,26.19,0.4979,732.63,Monitor Combined Disruption: Rebalance Capacity Before Risk Converts To Service Loss.
+Combined Disruption,telephony::RJ,telephony,telephony,RJ,RJ,28.99,0.5086,251.11,Monitor Combined Disruption: Rebalance Capacity Before Risk Converts To Service Loss.
+Combined Disruption,telephony::MG,telephony,telephony,MG,MG,24.71,0.4957,201.44,Monitor Combined Disruption: Rebalance Capacity Before Risk Converts To Service Loss.
+Combined Disruption,musical_instruments::SP,musical_instruments,musical_instruments,SP,SP,25.71,0.4869,1608.7,Monitor Combined Disruption: Rebalance Capacity Before Risk Converts To Service Loss.
+Combined Disruption,baby::MG,baby,baby,MG,MG,29.18,0.4847,611.65,Monitor Combined Disruption: Rebalance Capacity Before Risk Converts To Service Loss.
+Combined Disruption,furniture_decor::RS,furniture_decor,furniture_decor,RS,RS,32.25,0.4719,569.02,Monitor Combined Disruption: Rebalance Capacity Before Risk Converts To Service Loss.
+Combined Disruption,health_beauty::BA,health_beauty,health_beauty,BA,BA,30.52,0.4828,862.45,Monitor Combined Disruption: Rebalance Capacity Before Risk Converts To Service Loss.
+Combined Disruption,computers_accessories::RS,computers_accessories,computers_accessories,RS,RS,26.22,0.4686,467.45,Monitor Combined Disruption: Rebalance Capacity Before Risk Converts To Service Loss.
+Combined Disruption,office_furniture::SP,office_furniture,office_furniture,SP,SP,29.23,0.4583,983.86,Monitor Combined Disruption: Rebalance Capacity Before Risk Converts To Service Loss.
+Combined Disruption,unknown::SP,unknown,unknown,SP,SP,28.55,0.4583,362.36,Monitor Combined Disruption: Rebalance Capacity Before Risk Converts To Service Loss.
+Combined Disruption,home_appliances::SP,home_appliances,home_appliances,SP,SP,41.71,0.4539,721.1,Monitor Combined Disruption: Rebalance Capacity Before Risk Converts To Service Loss.
+Combined Disruption,furniture_decor::RJ,furniture_decor,furniture_decor,RJ,RJ,49.73,0.4657,882.75,Monitor Combined Disruption: Rebalance Capacity Before Risk Converts To Service Loss.
+Combined Disruption,housewares::PR,housewares,housewares,PR,PR,38.06,0.4375,428.61,Monitor Combined Disruption: Rebalance Capacity Before Risk Converts To Service Loss.
+Combined Disruption,computers_accessories::MG,computers_accessories,computers_accessories,MG,MG,58.82,0.4308,1304.02,Monitor Combined Disruption: Rebalance Capacity Before Risk Converts To Service Loss.
+Combined Disruption,sports_leisure::RJ,sports_leisure,sports_leisure,RJ,RJ,55.96,0.4382,1071.68,Monitor Combined Disruption: Rebalance Capacity Before Risk Converts To Service Loss.
+Combined Disruption,baby::RJ,baby,baby,RJ,RJ,29.58,0.4305,697.38,Monitor Combined Disruption: Rebalance Capacity Before Risk Converts To Service Loss.
+Combined Disruption,bed_bath_table::RS,bed_bath_table,bed_bath_table,RS,RS,29.37,0.4213,633.48,Monitor Combined Disruption: Rebalance Capacity Before Risk Converts To Service Loss.
+Combined Disruption,watches_gifts::PR,watches_gifts,watches_gifts,PR,PR,26.83,0.4133,1170.99,Monitor Combined Disruption: Rebalance Capacity Before Risk Converts To Service Loss.
+Combined Disruption,health_beauty::RS,health_beauty,health_beauty,RS,RS,34.63,0.4147,795.42,Monitor Combined Disruption: Rebalance Capacity Before Risk Converts To Service Loss.
+Combined Disruption,watches_gifts::MG,watches_gifts,watches_gifts,MG,MG,37.52,0.4022,1206.89,Monitor Combined Disruption: Rebalance Capacity Before Risk Converts To Service Loss.
+Combined Disruption,sports_leisure::PR,sports_leisure,sports_leisure,PR,PR,28.52,0.3946,478.46,Monitor Combined Disruption: Rebalance Capacity Before Risk Converts To Service Loss.
+Combined Disruption,garden_tools::SP,garden_tools,garden_tools,SP,SP,71.56,0.3835,1062.27,Monitor Combined Disruption: Rebalance Capacity Before Risk Converts To Service Loss.
+Combined Disruption,telephony::SP,telephony,telephony,SP,SP,120.39,0.3758,770.45,Maintain Combined Disruption: Current Exposure Is Manageable.
+Combined Disruption,electronics::SP,electronics,electronics,SP,SP,47.49,0.3362,388.38,Maintain Combined Disruption: Current Exposure Is Manageable.
+Regional Rebalance,perfumery::SP,perfumery,perfumery,SP,SP,238.84,0.8735,6735.76,Escalate Regional Rebalance: Protect Service Levels And Review Allocation.
+Regional Rebalance,cool_stuff::SP,cool_stuff,cool_stuff,SP,SP,127.16,0.8735,5785.13,Escalate Regional Rebalance: Protect Service Levels And Review Allocation.
+Regional Rebalance,health_beauty::RJ,health_beauty,health_beauty,RJ,RJ,160.45,0.8875,5959.48,Escalate Regional Rebalance: Protect Service Levels And Review Allocation.
+Regional Rebalance,food::SP,food,food,SP,SP,168.64,0.8718,3227.96,Escalate Regional Rebalance: Protect Service Levels And Review Allocation.
+Regional Rebalance,toys::SP,toys,toys,SP,SP,181.75,0.8643,5451.17,Escalate Regional Rebalance: Protect Service Levels And Review Allocation.
+Regional Rebalance,auto::SP,auto,auto,SP,SP,285.58,0.7895,7991.84,Escalate Regional Rebalance: Protect Service Levels And Review Allocation.
+Regional Rebalance,bed_bath_table::MG,bed_bath_table,bed_bath_table,MG,MG,109.48,0.7127,2811.1,Escalate Regional Rebalance: Protect Service Levels And Review Allocation.
+Regional Rebalance,computers_accessories::SP,computers_accessories,computers_accessories,SP,SP,325.81,0.7064,6425.63,Escalate Regional Rebalance: Protect Service Levels And Review Allocation.
+Regional Rebalance,pet_shop::SP,pet_shop,pet_shop,SP,SP,170.65,0.6963,4177.69,Escalate Regional Rebalance: Protect Service Levels And Review Allocation.
+Regional Rebalance,auto::RJ,auto,auto,RJ,RJ,47.93,0.6742,1008.94,Escalate Regional Rebalance: Protect Service Levels And Review Allocation.
+Regional Rebalance,auto::MG,auto,auto,MG,MG,75.38,0.627,1904.73,Escalate Regional Rebalance: Protect Service Levels And Review Allocation.
+Regional Rebalance,housewares::RJ,housewares,housewares,RJ,RJ,108.9,0.6338,1619.15,Escalate Regional Rebalance: Protect Service Levels And Review Allocation.
+Regional Rebalance,furniture_decor::SP,furniture_decor,furniture_decor,SP,SP,294.74,0.619,5035.37,Monitor Regional Rebalance: Rebalance Capacity Before Risk Converts To Service Loss.
+Regional Rebalance,health_beauty::MG,health_beauty,health_beauty,MG,MG,150.43,0.6111,2902.78,Monitor Regional Rebalance: Rebalance Capacity Before Risk Converts To Service Loss.
+Regional Rebalance,baby::SP,baby,baby,SP,SP,164.76,0.5938,3149.69,Monitor Regional Rebalance: Rebalance Capacity Before Risk Converts To Service Loss.
+Regional Rebalance,watches_gifts::SP,watches_gifts,watches_gifts,SP,SP,227.44,0.5846,6441.77,Monitor Regional Rebalance: Rebalance Capacity Before Risk Converts To Service Loss.
+Regional Rebalance,stationery::SP,stationery,stationery,SP,SP,153.15,0.5745,2732.43,Monitor Regional Rebalance: Rebalance Capacity Before Risk Converts To Service Loss.
+Regional Rebalance,housewares::MG,housewares,housewares,MG,MG,94.04,0.5548,1288.73,Monitor Regional Rebalance: Rebalance Capacity Before Risk Converts To Service Loss.
+Regional Rebalance,fashion_bags_accessories::SP,fashion_bags_accessories,fashion_bags_accessories,SP,SP,80.08,0.5484,943.97,Monitor Regional Rebalance: Rebalance Capacity Before Risk Converts To Service Loss.
+Regional Rebalance,perfumery::RJ,perfumery,perfumery,RJ,RJ,34.69,0.5574,981.39,Monitor Regional Rebalance: Rebalance Capacity Before Risk Converts To Service Loss.
+Regional Rebalance,sports_leisure::SP,sports_leisure,sports_leisure,SP,SP,308.68,0.535,4617.64,Monitor Regional Rebalance: Rebalance Capacity Before Risk Converts To Service Loss.
+Regional Rebalance,bed_bath_table::RJ,bed_bath_table,bed_bath_table,RJ,RJ,128.73,0.5473,2186.75,Monitor Regional Rebalance: Rebalance Capacity Before Risk Converts To Service Loss.
+Regional Rebalance,construction_tools_construction::SP,construction_tools_construction,construction_tools_construction,SP,SP,105.25,0.5291,936.66,Monitor Regional Rebalance: Rebalance Capacity Before Risk Converts To Service Loss.
+Regional Rebalance,health_beauty::PR,health_beauty,health_beauty,PR,PR,45.08,0.5202,740.0,Monitor Regional Rebalance: Rebalance Capacity Before Risk Converts To Service Loss.
+Regional Rebalance,small_appliances::SP,small_appliances,small_appliances,SP,SP,23.53,0.5165,590.17,Monitor Regional Rebalance: Rebalance Capacity Before Risk Converts To Service Loss.
+Regional Rebalance,luggage_accessories::SP,luggage_accessories,luggage_accessories,SP,SP,37.46,0.4972,778.53,Monitor Regional Rebalance: Rebalance Capacity Before Risk Converts To Service Loss.
+Regional Rebalance,housewares::SP,housewares,housewares,SP,SP,355.47,0.4863,4375.83,Monitor Regional Rebalance: Rebalance Capacity Before Risk Converts To Service Loss.
+Regional Rebalance,garden_tools::RJ,garden_tools,garden_tools,RJ,RJ,23.31,0.4986,506.94,Monitor Regional Rebalance: Rebalance Capacity Before Risk Converts To Service Loss.
+Regional Rebalance,furniture_decor::MG,furniture_decor,furniture_decor,MG,MG,59.18,0.4674,740.35,Monitor Regional Rebalance: Rebalance Capacity Before Risk Converts To Service Loss.
+Regional Rebalance,housewares::RS,housewares,housewares,RS,RS,45.77,0.465,841.63,Monitor Regional Rebalance: Rebalance Capacity Before Risk Converts To Service Loss.
+Regional Rebalance,computers_accessories::RJ,computers_accessories,computers_accessories,RJ,RJ,65.15,0.4709,1176.4,Monitor Regional Rebalance: Rebalance Capacity Before Risk Converts To Service Loss.
+Regional Rebalance,garden_tools::MG,garden_tools,garden_tools,MG,MG,27.57,0.4573,564.79,Monitor Regional Rebalance: Rebalance Capacity Before Risk Converts To Service Loss.
+Regional Rebalance,sports_leisure::RS,sports_leisure,sports_leisure,RS,RS,22.91,0.4516,333.84,Monitor Regional Rebalance: Rebalance Capacity Before Risk Converts To Service Loss.
+Regional Rebalance,bed_bath_table::SC,bed_bath_table,bed_bath_table,SC,SC,22.9,0.455,327.27,Monitor Regional Rebalance: Rebalance Capacity Before Risk Converts To Service Loss.
+Regional Rebalance,home_construction::SP,home_construction,home_construction,SP,SP,25.67,0.4451,658.05,Monitor Regional Rebalance: Rebalance Capacity Before Risk Converts To Service Loss.
+Regional Rebalance,health_beauty::SP,health_beauty,health_beauty,SP,SP,370.31,0.4434,4368.0,Monitor Regional Rebalance: Rebalance Capacity Before Risk Converts To Service Loss.
+Regional Rebalance,furniture_decor::SC,furniture_decor,furniture_decor,SC,SC,22.77,0.4483,370.38,Monitor Regional Rebalance: Rebalance Capacity Before Risk Converts To Service Loss.
+Regional Rebalance,perfumery::MG,perfumery,perfumery,MG,MG,29.45,0.4372,531.05,Monitor Regional Rebalance: Rebalance Capacity Before Risk Converts To Service Loss.
+Regional Rebalance,cool_stuff::RJ,cool_stuff,cool_stuff,RJ,RJ,21.66,0.4373,595.93,Monitor Regional Rebalance: Rebalance Capacity Before Risk Converts To Service Loss.
+Regional Rebalance,bed_bath_table::SP,bed_bath_table,bed_bath_table,SP,SP,359.97,0.4182,3721.4,Monitor Regional Rebalance: Rebalance Capacity Before Risk Converts To Service Loss.
+Regional Rebalance,sports_leisure::SC,sports_leisure,sports_leisure,SC,SC,26.07,0.4231,559.27,Monitor Regional Rebalance: Rebalance Capacity Before Risk Converts To Service Loss.
+Regional Rebalance,health_beauty::SC,health_beauty,health_beauty,SC,SC,28.82,0.4029,410.53,Monitor Regional Rebalance: Rebalance Capacity Before Risk Converts To Service Loss.
+Regional Rebalance,computers_accessories::PR,computers_accessories,computers_accessories,PR,PR,26.45,0.3951,356.14,Monitor Regional Rebalance: Rebalance Capacity Before Risk Converts To Service Loss.
+Regional Rebalance,watches_gifts::RJ,watches_gifts,watches_gifts,RJ,RJ,54.34,0.3886,1527.32,Monitor Regional Rebalance: Rebalance Capacity Before Risk Converts To Service Loss.
+Regional Rebalance,electronics::RJ,electronics,electronics,RJ,RJ,22.82,0.3886,167.6,Monitor Regional Rebalance: Rebalance Capacity Before Risk Converts To Service Loss.
+Regional Rebalance,sports_leisure::MG,sports_leisure,sports_leisure,MG,MG,45.3,0.375,747.42,Maintain Regional Rebalance: Current Exposure Is Manageable.
+Regional Rebalance,furniture_decor::PR,furniture_decor,furniture_decor,PR,PR,38.66,0.3674,588.11,Maintain Regional Rebalance: Current Exposure Is Manageable.
+Regional Rebalance,bed_bath_table::PR,bed_bath_table,bed_bath_table,PR,PR,27.04,0.3674,382.48,Maintain Regional Rebalance: Current Exposure Is Manageable.
+Regional Rebalance,toys::MG,toys,toys,MG,MG,22.31,0.3666,413.19,Maintain Regional Rebalance: Current Exposure Is Manageable.
+Regional Rebalance,telephony::RJ,telephony,telephony,RJ,RJ,24.71,0.3776,141.62,Maintain Regional Rebalance: Current Exposure Is Manageable.
+Regional Rebalance,telephony::MG,telephony,telephony,MG,MG,21.06,0.3649,113.61,Maintain Regional Rebalance: Current Exposure Is Manageable.
+Regional Rebalance,musical_instruments::SP,musical_instruments,musical_instruments,SP,SP,21.91,0.3578,907.28,Maintain Regional Rebalance: Current Exposure Is Manageable.
+Regional Rebalance,baby::MG,baby,baby,MG,MG,24.86,0.3565,344.96,Maintain Regional Rebalance: Current Exposure Is Manageable.
+Regional Rebalance,furniture_decor::RS,furniture_decor,furniture_decor,RS,RS,27.48,0.3474,320.92,Maintain Regional Rebalance: Current Exposure Is Manageable.
+Regional Rebalance,health_beauty::BA,health_beauty,health_beauty,BA,BA,26.01,0.3591,486.41,Maintain Regional Rebalance: Current Exposure Is Manageable.
+Regional Rebalance,computers_accessories::RS,computers_accessories,computers_accessories,RS,RS,22.34,0.3449,263.64,Maintain Regional Rebalance: Current Exposure Is Manageable.
+Regional Rebalance,office_furniture::SP,office_furniture,office_furniture,SP,SP,24.91,0.3359,554.88,Maintain Regional Rebalance: Current Exposure Is Manageable.
+Regional Rebalance,unknown::SP,unknown,unknown,SP,SP,24.33,0.3359,204.37,Maintain Regional Rebalance: Current Exposure Is Manageable.
+Regional Rebalance,home_appliances::SP,home_appliances,home_appliances,SP,SP,35.54,0.3326,406.69,Maintain Regional Rebalance: Current Exposure Is Manageable.
+Regional Rebalance,furniture_decor::RJ,furniture_decor,furniture_decor,RJ,RJ,42.38,0.3449,497.86,Maintain Regional Rebalance: Current Exposure Is Manageable.
+Regional Rebalance,housewares::PR,housewares,housewares,PR,PR,32.44,0.3203,241.73,Maintain Regional Rebalance: Current Exposure Is Manageable.
+Regional Rebalance,computers_accessories::MG,computers_accessories,computers_accessories,MG,MG,50.13,0.3154,735.45,Maintain Regional Rebalance: Current Exposure Is Manageable.
+Regional Rebalance,sports_leisure::RJ,sports_leisure,sports_leisure,RJ,RJ,47.69,0.3239,604.41,Maintain Regional Rebalance: Current Exposure Is Manageable.
+Regional Rebalance,baby::RJ,baby,baby,RJ,RJ,25.21,0.318,393.31,Maintain Regional Rebalance: Current Exposure Is Manageable.
+Regional Rebalance,bed_bath_table::RS,bed_bath_table,bed_bath_table,RS,RS,25.03,0.3088,357.27,Maintain Regional Rebalance: Current Exposure Is Manageable.
+Regional Rebalance,watches_gifts::PR,watches_gifts,watches_gifts,PR,PR,22.86,0.3018,660.42,Maintain Regional Rebalance: Current Exposure Is Manageable.
+Regional Rebalance,health_beauty::RS,health_beauty,health_beauty,RS,RS,29.51,0.3038,448.6,Maintain Regional Rebalance: Current Exposure Is Manageable.
+Regional Rebalance,watches_gifts::MG,watches_gifts,watches_gifts,MG,MG,31.98,0.2935,680.66,Maintain Regional Rebalance: Current Exposure Is Manageable.
+Regional Rebalance,sports_leisure::PR,sports_leisure,sports_leisure,PR,PR,24.3,0.2876,269.84,Maintain Regional Rebalance: Current Exposure Is Manageable.
+Regional Rebalance,garden_tools::SP,garden_tools,garden_tools,SP,SP,60.99,0.2788,599.1,Maintain Regional Rebalance: Current Exposure Is Manageable.
+Regional Rebalance,telephony::SP,telephony,telephony,SP,SP,102.6,0.2729,434.52,Maintain Regional Rebalance: Current Exposure Is Manageable.
+Regional Rebalance,electronics::SP,electronics,electronics,SP,SP,40.47,0.2427,219.04,Maintain Regional Rebalance: Current Exposure Is Manageable.

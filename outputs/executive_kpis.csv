@@ -1,0 +1,2 @@
+project_owner,data_sources,demand_series_modeled,forecast_units_28d,forecast_revenue_28d,high_inventory_exposure_lanes,delivery_orders_scored,high_delivery_risk_orders,avg_late_delivery_probability,scenario_count,demand_model_mae,demand_model_mape,delivery_model_roc_auc,delivery_model_average_precision
+Pratheepa Gobady,Brazilian E-Commerce Public Dataset By Olist (CC BY-NC-SA 4.0; Non-Commercial Educational Use),72,6511.49,583167.13,11,96470,93,0.0816,6,1.733,0.7416,0.7337,0.1268

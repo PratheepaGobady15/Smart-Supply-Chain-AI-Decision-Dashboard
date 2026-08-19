@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Smart Supply Chain AI Decision Dashboard</title>
+    <meta
+      name="description"
+      content="Real-Data Olist Supply Chain Decision Dashboard For Demand Forecasting, Delivery-Risk Prediction, Scenario Simulation, And Ranked Operational Actions."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="dashboard-shell">
+      <header class="command-hero">
+        <section class="market-stage" aria-label="Marketplace Operations Network">
+          <canvas id="marketCanvas" width="1180" height="620"></canvas>
+          <div class="hero-copy">
+            <p class="eyebrow">Olist Marketplace Control Room</p>
+            <h1>Smart Supply Chain AI Decision Dashboard</h1>
+            <p>
+              Built For Pratheepa Gobady From Real Olist Demand And Delivery Records. The System Forecasts
+              Category-State Demand, Predicts Late-Delivery Risk, Simulates Disruptions, And Converts Model Evidence
+              Into Ranked Operational Actions.
+            </p>
+          </div>
+          <div class="hero-readout" aria-label="Selected Scenario Result">
+            <span>Active Scenario</span>
+            <strong id="scenarioName">Base Case</strong>
+            <p id="scenarioNarrative">Scenario Impact Is Loading.</p>
+          </div>
+        </section>
+
+        <aside class="mission-panel" aria-label="Model And Data Status">
+          <div class="mission-top">
+            <span class="status-light" aria-hidden="true"></span>
+            <div>
+              <span>Real Data Engine</span>
+              <strong>Olist AI Decision Layer</strong>
+            </div>
+          </div>
+          <div class="mission-metrics">
+            <article>
+              <span>Forecast Units 28D</span>
+              <strong id="kpiForecastUnits">0</strong>
+            </article>
+            <article>
+              <span>Revenue Forecast</span>
+              <strong id="kpiForecastRevenue">$0</strong>
+            </article>
+            <article>
+              <span>Orders Scored</span>
+              <strong id="kpiOrders">0</strong>
+            </article>
+            <article>
+              <span>ROC AUC</span>
+              <strong id="kpiAuc">0.00</strong>
+            </article>
+          </div>
+          <div class="scenario-card">
+            <span>Service Risk</span>
+            <strong id="scenarioRisk">0%</strong>
+            <small id="scenarioUnits">0 Units Impacted</small>
+          </div>
+        </aside>
+      </header>
+
+      <section class="control-deck" aria-label="Scenario And Search Controls">
+        <div>
+          <span>Scenario Composer</span>
+          <div class="scenario-buttons" id="scenarioButtons"></div>
+        </div>
+        <label class="search-box">
+          <span>Decision Search</span>
+          <input id="actionSearch" type="search" placeholder="Search Risk Lane, State, Category, Action..." />
+        </label>
+      </section>
+
+      <section class="signal-strip" aria-label="AI Decision Signals">
+        <article>
+          <span>Forecast Twin</span>
+          <strong id="highInventoryLanes">0 High Exposure Lanes</strong>
+          <p>Demand pressure is modeled from real category-state purchase history, volatility, price, and freight.</p>
+        </article>
+        <article>
+          <span>Delivery Risk</span>
+          <strong id="avgLateProbability">0% Average Late Risk</strong>
+          <p>Late-delivery probability is trained with a temporal split so the validation imitates future scoring.</p>
+        </article>
+        <article>
+          <span>Market Hotspot</span>
+          <strong id="dominantState">State Loading</strong>
+          <p>The interface connects demand exposure with delivery pressure so actions are not just KPI summaries.</p>
+        </article>
+      </section>
+
+      <section class="operations-grid">
+        <article class="panel panel-wide">
+          <div class="panel-heading">
+            <div>
+              <span>Demand Flow</span>
+              <h2>28-Day Category Forecast Under The Selected Scenario</h2>
+            </div>
+            <strong id="selectedScenarioImpact">$0</strong>
+          </div>
+          <canvas id="forecastCanvas" width="980" height="430" aria-label="Demand Forecast Chart"></canvas>
+        </article>
+
+        <article class="panel panel-tall">
+          <div class="panel-heading">
+            <div>
+              <span>Decision Queue</span>
+              <h2>Ranked Operational Actions</h2>
+            </div>
+            <div class="filter-tabs" id="queueFilters" aria-label="Action Queue Filters">
+              <button class="active" data-filter="All" type="button">All</button>
+              <button data-filter="Demand Forecast" type="button">Demand</button>
+              <button data-filter="Delivery Risk" type="button">Delivery</button>
+              <button data-filter="Scenario" type="button">Scenario</button>
+            </div>
+          </div>
+          <div class="action-list" id="actionList"></div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-heading">
+            <div>
+              <span>Demand Lanes</span>
+              <h2>Category-State Exposure</h2>
+            </div>
+          </div>
+          <div class="lane-stack" id="demandLaneList"></div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-heading">
+            <div>
+              <span>Delivery Network</span>
+              <h2>Brazil State Risk Board</h2>
+            </div>
+          </div>
+          <div class="state-board" id="stateMap" aria-label="Delivery State Risk Board"></div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-heading">
+            <div>
+              <span>Seller Signals</span>
+              <h2>Highest-Risk Fulfillment Origins</h2>
+            </div>
+          </div>
+          <div class="seller-stack" id="sellerRiskList"></div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-heading">
+            <div>
+              <span>Model Evidence</span>
+              <h2>Top Drivers And Validation</h2>
+            </div>
+          </div>
+          <div class="model-split">
+            <div class="importance-list" id="importanceList"></div>
+            <div class="metric-list" id="metricList"></div>
+          </div>
+        </article>
+      </section>
+
+      <section class="data-products">
+        <div>
+          <p class="eyebrow">Power BI Ready Outputs</p>
+          <h2>Clean Data Products For Recruiter Review</h2>
+        </div>
+        <div class="download-grid">
+          <a href="../outputs/demand_forecast.csv" download>Demand Forecast</a>
+          <a href="../outputs/delivery_risk_predictions.csv" download>Delivery Risk Predictions</a>
+          <a href="../outputs/inventory_exposure_recommendations.csv" download>Inventory Exposure</a>
+          <a href="../outputs/decision_action_queue.csv" download>Decision Action Queue</a>
+          <a href="../outputs/what_if_scenarios.csv" download>What-If Scenarios</a>
+          <a href="../outputs/model_metrics.csv" download>Model Metrics</a>
+        </div>
+      </section>
+    </main>
+
+    <script src="data/dashboard_data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

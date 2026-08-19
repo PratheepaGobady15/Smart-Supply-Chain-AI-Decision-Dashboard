@@ -1,0 +1,14 @@
+model,metric,value
+Olist Demand Forecast,MAE,1.733
+Olist Demand Forecast,MAPE,0.7416
+Olist Demand Forecast,Training Rows,47376.0
+Olist Demand Forecast,Validation Rows,2016.0
+Olist Demand Forecast,Series Modeled,72.0
+Olist Late Delivery Risk,ROC AUC,0.7337
+Olist Late Delivery Risk,Average Precision,0.1268
+Olist Late Delivery Risk,F1,0.2115
+Olist Late Delivery Risk,F1 Threshold,0.09
+Olist Late Delivery Risk,Accuracy,0.7983
+Olist Late Delivery Risk,Training Rows,75246.0
+Olist Late Delivery Risk,Validation Rows,21224.0
+Olist Late Delivery Risk,Late Delivery Rate,0.0811

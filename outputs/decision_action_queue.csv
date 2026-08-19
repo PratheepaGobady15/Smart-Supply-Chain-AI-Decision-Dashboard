@@ -1,0 +1,39 @@
+lane,title,score,risk_level,impact,action
+Scenario,Combined Disruption / auto / SP,100.0,High,14170.32,Escalate Combined Disruption: Protect Service Levels And Review Allocation.
+Scenario,Combined Disruption / perfumery / SP,100.0,High,11943.17,Escalate Combined Disruption: Protect Service Levels And Review Allocation.
+Scenario,Combined Disruption / health_beauty / RJ,100.0,High,10566.75,Escalate Combined Disruption: Protect Service Levels And Review Allocation.
+Scenario,Delivery Slowdown +10% / auto / SP,100.0,High,10268.35,Escalate Delivery Slowdown +10%: Protect Service Levels And Review Allocation.
+Scenario,Combined Disruption / cool_stuff / SP,100.0,High,10257.61,Escalate Combined Disruption: Protect Service Levels And Review Allocation.
+Scenario,Combined Disruption / toys / SP,100.0,High,9665.47,Escalate Combined Disruption: Protect Service Levels And Review Allocation.
+Demand Forecast,perfumery / SP,100.0,High,7867.7,Prioritize Demand Review And Reserve Capacity For This Category-State Lane.
+Scenario,Delivery Slowdown +10% / health_beauty / RJ,100.0,High,7657.07,Escalate Delivery Slowdown +10%: Protect Service Levels And Review Allocation.
+Scenario,Delivery Slowdown +10% / toys / SP,100.0,High,7003.96,Escalate Delivery Slowdown +10%: Protect Service Levels And Review Allocation.
+Demand Forecast,health_beauty / RJ,100.0,High,6960.97,Prioritize Demand Review And Reserve Capacity For This Category-State Lane.
+Demand Forecast,cool_stuff / SP,100.0,High,6757.32,Prioritize Demand Review And Reserve Capacity For This Category-State Lane.
+Scenario,Combined Disruption / food / SP,100.0,High,5723.5,Escalate Combined Disruption: Protect Service Levels And Review Allocation.
+Scenario,Delivery Slowdown +10% / food / SP,100.0,High,4147.46,Escalate Delivery Slowdown +10%: Protect Service Levels And Review Allocation.
+Demand Forecast,food / SP,99.8,High,3770.42,Prioritize Demand Review And Reserve Capacity For This Category-State Lane.
+Demand Forecast,toys / SP,98.9,High,6367.24,Prioritize Demand Review And Reserve Capacity For This Category-State Lane.
+Demand Forecast,auto / SP,90.0,High,9334.86,Prioritize Demand Review And Reserve Capacity For This Category-State Lane.
+Delivery Risk,SP To MA,82.9,High,226.97,Review Seller/Region Promise Window And Freight Exposure.
+Delivery Risk,SP To RJ,81.6,High,249.0,Review Seller/Region Promise Window And Freight Exposure.
+Demand Forecast,bed_bath_table / MG,80.6,High,3283.51,Prioritize Demand Review And Reserve Capacity For This Category-State Lane.
+Delivery Risk,SP To SE,80.6,High,391.87,Review Seller/Region Promise Window And Freight Exposure.
+Demand Forecast,computers_accessories / SP,80.1,High,7505.46,Prioritize Demand Review And Reserve Capacity For This Category-State Lane.
+Delivery Risk,SP To AL,79.8,High,89.0,Review Seller/Region Promise Window And Freight Exposure.
+Demand Forecast,pet_shop / SP,78.9,High,4879.75,Prioritize Demand Review And Reserve Capacity For This Category-State Lane.
+Delivery Risk,SP To MA,78.8,High,57.8,Review Seller/Region Promise Window And Freight Exposure.
+Delivery Risk,SP To RJ,78.3,High,119.9,Review Seller/Region Promise Window And Freight Exposure.
+Delivery Risk,SP To MA,78.1,High,86.9,Review Seller/Region Promise Window And Freight Exposure.
+Delivery Risk,MA To PE,77.9,High,110.99,Review Seller/Region Promise Window And Freight Exposure.
+Delivery Risk,SP To MA,77.6,High,325.0,Review Seller/Region Promise Window And Freight Exposure.
+Delivery Risk,SP To AL,77.2,High,12.99,Review Seller/Region Promise Window And Freight Exposure.
+Delivery Risk,SP To RJ,76.4,High,599.0,Review Seller/Region Promise Window And Freight Exposure.
+Delivery Risk,SP To RJ,76.2,High,99.99,Review Seller/Region Promise Window And Freight Exposure.
+Delivery Risk,SP To MA,75.7,High,84.9,Review Seller/Region Promise Window And Freight Exposure.
+Delivery Risk,SP To CE,75.5,High,18.98,Review Seller/Region Promise Window And Freight Exposure.
+Demand Forecast,auto / RJ,74.6,High,1178.49,Prioritize Demand Review And Reserve Capacity For This Category-State Lane.
+Demand Forecast,auto / MG,70.4,High,2224.82,Prioritize Demand Review And Reserve Capacity For This Category-State Lane.
+Demand Forecast,housewares / RJ,69.8,Medium,1891.25,Watch For Demand Acceleration And Validate Replenishment Coverage.
+Demand Forecast,furniture_decor / SP,69.7,Medium,5881.56,Watch For Demand Acceleration And Validate Replenishment Coverage.
+Demand Forecast,health_beauty / MG,68.5,Medium,3390.59,Watch For Demand Acceleration And Validate Replenishment Coverage.
