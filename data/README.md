@@ -6,7 +6,7 @@ This Project Uses Real Public Data. Raw Data Files Are Not Committed Because The
 
 - Official Source: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 - License: CC BY-NC-SA 4.0
-- Use Scope: Non-Commercial Academic And Portfolio Demonstration With Attribution
+- Use Scope: Non-Commercial Academic Demonstration With Attribution
 - Business Use: Category/State Demand Forecasting, Delivery Delay Risk, Freight Exposure, Seller/Region Performance
 
 Files Used:

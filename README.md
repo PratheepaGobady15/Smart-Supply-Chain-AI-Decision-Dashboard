@@ -6,7 +6,7 @@ An Advanced Real-Data Supply Chain Decision Dashboard.
 It Uses The Public Olist Marketplace Dataset To Forecast Demand, Predict Late-Delivery Risk, Rank Inventory Exposure, And Simulate Operational Decisions.
 The Website Presents A Field-Specific AI Decision Experience, Not A Basic KPI Dashboard, With Model Evidence And Downloadable Analytics Outputs.
 
-This Project Combines Demand Forecasting, Delivery-Risk Prediction, Scenario Simulation, Explainability, And Power BI-Ready Data Products Into One Recruiter-Friendly AI Portfolio Project Using One Coherent Real Marketplace Dataset.
+This Project Combines Demand Forecasting, Delivery-Risk Prediction, Scenario Simulation, Explainability, And Power BI-Ready Data Products Into One Coherent Real Marketplace Analytics System.
 
 ## What Makes It Different
 
@@ -45,7 +45,7 @@ web/
 
 - Brazilian E-Commerce Public Dataset By Olist: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 - License: CC BY-NC-SA 4.0
-- Use Scope: Non-Commercial Academic And Portfolio Demonstration With Attribution
+- Use Scope: Non-Commercial Academic Demonstration With Attribution
 
 Raw Data Files Are Not Committed Because They Are Large. See `data/README.md` For The Expected Local Layout And Download Notes.
 
@@ -86,17 +86,4 @@ Or Open This File Locally In A Browser:
 web/index.html
 ```
 
-The Browser Dashboard Loads `web/data/dashboard_data.js`, So It Can Run As A Static Portfolio Demo After The Pipeline Has Been Built.
-
-## Portfolio Story
-
-This Project Is Best Presented As:
-
-**Smart Supply Chain AI Decision Dashboard** - A Real-Data AI Decision Control Tower That Forecasts Demand, Predicts Late Delivery Risk, Simulates Operational Shocks, And Produces Ranked Actions For Supply Chain Planners.
-
-Recommended Resume Bullets:
-
-- Built A Real-Data Supply Chain AI Decision Dashboard Using Olist Marketplace Demand And Delivery Data.
-- Trained Gradient-Boosted Forecasting And Classification Models To Predict 28-Day Demand And Late-Delivery Risk.
-- Designed A Scenario-To-Action Decision Layer That Converts Model Outputs Into Inventory Exposure, Delivery Risk, And Operational Recommendations.
-- Created Power BI-Ready Data Products And A Visually Advanced Static Web Dashboard For Recruiter Review.
+The Browser Dashboard Loads `web/data/dashboard_data.js`, So It Can Run As A Static Technical Demo After The Pipeline Has Been Built.

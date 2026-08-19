@@ -42,7 +42,7 @@ def write_source_manifest() -> None:
         "dataset": "Brazilian E-Commerce Public Dataset By Olist",
         "primary_source": KAGGLE_SOURCE_URL,
         "license": OLIST_LICENSE,
-        "usage_scope": "Non-commercial educational and portfolio use with attribution and share-alike treatment.",
+        "usage_scope": "Non-commercial educational use with attribution and share-alike treatment.",
         "download_note": "The automated pipeline uses public raw CSV mirrors when Kaggle credentials are not available.",
         "files": OLIST_FILES,
     }

@@ -6,11 +6,11 @@
 
 - Primary Source: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 - License: CC BY-NC-SA 4.0
-- Use Scope: Non-Commercial Academic And Portfolio Demonstration With Attribution
+- Use Scope: Non-Commercial Academic Demonstration With Attribution
 
 ## Project Use
 
-This Is A Student Portfolio And Analytics Demonstration Project. The Pipeline Uses The Public Olist Dataset To Build A 28-Day Category/State Demand Forecast, Predict Late Delivery Risk, Simulate Supply Chain Scenarios, And Generate A Ranked Decision Action Queue.
+This Is A Non-Commercial Academic Analytics Demonstration Project. The Pipeline Uses The Public Olist Dataset To Build A 28-Day Category/State Demand Forecast, Predict Late Delivery Risk, Simulate Supply Chain Scenarios, And Generate A Ranked Decision Action Queue.
 
 ## Guardrails
 
@@ -22,4 +22,4 @@ This Is A Student Portfolio And Analytics Demonstration Project. The Pipeline Us
 
 ## Attribution Note
 
-Because The Dataset Is Licensed CC BY-NC-SA 4.0, This Project Should Be Presented As A Non-Commercial Educational/Portfolio Demonstration With Source Attribution.
+Because The Dataset Is Licensed CC BY-NC-SA 4.0, This Project Should Be Presented As A Non-Commercial Educational Demonstration With Source Attribution.
